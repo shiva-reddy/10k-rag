@@ -1,0 +1,43 @@
+{
+  "ticker": "AMZN",
+  "company": "Amazon",
+  "fy_end": "2024-12-31",
+  "fy_label": "FY2024",
+  "calendar_year": 2024,
+  "filed_date": "2025-02-07",
+  "cik": "0001018724",
+  "accession": "0001018724-25-000004",
+  "edgar_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm",
+  "stats": {
+    "items_kept": [
+      "1",
+      "1A",
+      "1C",
+      "2",
+      "3",
+      "5",
+      "7",
+      "7A",
+      "8",
+      "9A"
+    ],
+    "items_dropped": [
+      "1B",
+      "4",
+      "6",
+      "9",
+      "9B",
+      "9C",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "tables_kept": 53,
+    "subheadings_kept": 146,
+    "chars_clean": 284114
+  }
+}

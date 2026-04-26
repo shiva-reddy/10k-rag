@@ -1,0 +1,43 @@
+{
+  "ticker": "AAPL",
+  "company": "Apple",
+  "fy_end": "2025-09-27",
+  "fy_label": "FY2025",
+  "calendar_year": 2025,
+  "filed_date": "2025-10-31",
+  "cik": "0000320193",
+  "accession": "0000320193-25-000079",
+  "edgar_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+  "stats": {
+    "items_kept": [
+      "1",
+      "1A",
+      "1C",
+      "2",
+      "3",
+      "5",
+      "7",
+      "7A",
+      "8",
+      "9A"
+    ],
+    "items_dropped": [
+      "1B",
+      "4",
+      "6",
+      "9",
+      "9B",
+      "9C",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "tables_kept": 42,
+    "subheadings_kept": 106,
+    "chars_clean": 199393
+  }
+}

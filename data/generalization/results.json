@@ -1,0 +1,124 @@
+[
+  {
+    "ticker": "BRKA",
+    "company": "Berkshire Hathaway",
+    "fy_end": "2025-12-31",
+    "html_mb": 9.92,
+    "md_kb": 500.6,
+    "items_kept": [
+      "1",
+      "1A",
+      "1C",
+      "2",
+      "3",
+      "5",
+      "7",
+      "7A",
+      "8",
+      "9A"
+    ],
+    "items_dropped": [
+      "1B",
+      "4",
+      "6",
+      "9",
+      "9B",
+      "9C",
+      "15"
+    ],
+    "subheadings_kept": 71,
+    "tables_kept": 103,
+    "tables_classified": {
+      "data": 118,
+      "layout": 2,
+      "skip": 0,
+      "total": 120
+    },
+    "note": "Standalone 10-K. 71 sub-headings, 118 data tables \u2014 clean parse. Items 7/7A/8 contain real content. Confirms classifier works on conglomerate corpus with no per-filer code."
+  },
+  {
+    "ticker": "JPM",
+    "company": "JPMorgan Chase",
+    "fy_end": "2025-12-31",
+    "html_mb": 12.33,
+    "md_kb": 151.4,
+    "items_kept": [
+      "1",
+      "1A",
+      "1C",
+      "2",
+      "3",
+      "5",
+      "7",
+      "7A",
+      "8",
+      "9A"
+    ],
+    "items_dropped": [
+      "1B",
+      "4",
+      "6",
+      "9",
+      "9B",
+      "9C",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "subheadings_kept": 32,
+    "tables_kept": 4,
+    "tables_classified": {
+      "data": 298,
+      "layout": 380,
+      "skip": 1,
+      "total": 679
+    },
+    "note": "Wrapper 10-K \u2014 Items 7, 7A, 8 incorporate-by-reference to a separately-filed Annual Report (e.g., Item 7 body is one sentence: \"appears on pages 46\u2013160\"). 4 tables kept is correct: the JPM 10-K cover doc itself genuinely has few tables; the financials live in the referenced doc. 298 data + 380 layout tables detected in raw HTML \u2014 classifier still functioning. Generalization caveat: pipeline assumes standalone 10-Ks; wrapper filings would need a follow-doc fetch step."
+  },
+  {
+    "ticker": "DDOG",
+    "company": "Datadog",
+    "fy_end": "2025-12-31",
+    "html_mb": 1.99,
+    "md_kb": 368.0,
+    "items_kept": [
+      "1",
+      "1A",
+      "1C",
+      "2",
+      "3",
+      "5",
+      "7",
+      "7A",
+      "8",
+      "9A"
+    ],
+    "items_dropped": [
+      "1B",
+      "4",
+      "6",
+      "9",
+      "9B",
+      "9C",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "subheadings_kept": 163,
+    "tables_kept": 56,
+    "tables_classified": {
+      "data": 68,
+      "layout": 2,
+      "skip": 3,
+      "total": 73
+    },
+    "note": "163 sub-headings (highest of the 3) \u2014 Datadog uses heavy section structure. 56/68 data tables kept. Clean parse, no per-filer code needed."
+  }
+]

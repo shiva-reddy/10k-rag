@@ -1,0 +1,84 @@
+<style>
+  /* Two heading levels in the body: H2 = section, H3 = sub-section.
+     H4 is unused so we don't fight just-the-docs's H4 small-caps style. */
+  .main-content h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-top: 2.75rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 0.4rem;
+  }
+  .main-content h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    color: #1a1a2e;
+  }
+
+  /* Inline code: subtle lavender, dark indigo text, no pill. */
+  .main-content code {
+    background-color: #f3f1ff;
+    color: #4338ca;
+    padding: 0.1em 0.35em;
+    border-radius: 3px;
+    font-size: 0.88em;
+    border: none;
+  }
+  /* Inside headings: drop the background entirely. */
+  .main-content h2 code,
+  .main-content h3 code {
+    background-color: transparent;
+    color: inherit;
+    font-size: 0.9em;
+    padding: 0;
+  }
+
+  /* Mermaid: breathing room, centered. */
+  .mermaid {
+    margin: 1.75rem auto;
+    text-align: center;
+  }
+
+  /* <details>: FAQ cards. */
+  .main-content details {
+    margin: 1rem 0;
+    padding: 0.5rem 0.85rem;
+    background-color: #fafaff;
+    border-left: 2px solid #d6d3ff;
+    border-radius: 3px;
+  }
+  .main-content details > summary {
+    cursor: pointer;
+    padding: 0.25rem 0;
+  }
+  .main-content details[open] > summary {
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  }
+
+  /* Tables: tighter cells, wrap long inline code. */
+  .main-content table th,
+  .main-content table td {
+    padding: 0.45rem 0.7rem;
+    font-size: 0.92rem;
+  }
+  .main-content table code {
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    white-space: normal;
+  }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll("pre code.language-mermaid, pre.language-mermaid code").forEach((el) => {
+      const wrap = el.closest("pre");
+      const div = document.createElement("div");
+      div.className = "mermaid";
+      div.textContent = el.textContent;
+      wrap.replaceWith(div);
+    });
+    mermaid.initialize({ startOnLoad: true, theme: "default", securityLevel: "loose" });
+  });
+</script>

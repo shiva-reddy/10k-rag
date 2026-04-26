@@ -1,0 +1,41 @@
+{
+  "ticker": "MSFT",
+  "company": "Microsoft",
+  "fy_end": "2021-06-30",
+  "fy_label": "FY2021",
+  "calendar_year": 2021,
+  "filed_date": "2021-07-29",
+  "cik": "0000789019",
+  "accession": "0001564590-21-039151",
+  "edgar_url": "https://www.sec.gov/Archives/edgar/data/789019/000156459021039151/msft-10k_20210630.htm",
+  "stats": {
+    "items_kept": [
+      "1",
+      "1A",
+      "2",
+      "3",
+      "5",
+      "7",
+      "7A",
+      "8",
+      "9A"
+    ],
+    "items_dropped": [
+      "1B",
+      "4",
+      "6",
+      "9",
+      "9B",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "tables_kept": 99,
+    "subheadings_kept": 128,
+    "chars_clean": 262370
+  }
+}

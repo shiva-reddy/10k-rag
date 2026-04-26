@@ -1,0 +1,42 @@
+{
+  "ticker": "NVDA",
+  "company": "Nvidia",
+  "fy_end": "2023-01-29",
+  "fy_label": "FY2023",
+  "calendar_year": 2023,
+  "filed_date": "2023-02-24",
+  "cik": "0001045810",
+  "accession": "0001045810-23-000017",
+  "edgar_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/nvda-20230129.htm",
+  "stats": {
+    "items_kept": [
+      "1",
+      "1A",
+      "2",
+      "3",
+      "5",
+      "7",
+      "7A",
+      "8",
+      "9A"
+    ],
+    "items_dropped": [
+      "1B",
+      "4",
+      "6",
+      "9",
+      "9B",
+      "9C",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "tables_kept": 11,
+    "subheadings_kept": 82,
+    "chars_clean": 197448
+  }
+}

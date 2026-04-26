@@ -1,0 +1,43 @@
+{
+  "ticker": "META",
+  "company": "Meta",
+  "fy_end": "2023-12-31",
+  "fy_label": "FY2023",
+  "calendar_year": 2023,
+  "filed_date": "2024-02-02",
+  "cik": "0001326801",
+  "accession": "0001326801-24-000012",
+  "edgar_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000012/meta-20231231.htm",
+  "stats": {
+    "items_kept": [
+      "1",
+      "1A",
+      "1C",
+      "2",
+      "3",
+      "5",
+      "7",
+      "7A",
+      "8",
+      "9A"
+    ],
+    "items_dropped": [
+      "1B",
+      "4",
+      "6",
+      "9",
+      "9B",
+      "9C",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "tables_kept": 59,
+    "subheadings_kept": 158,
+    "chars_clean": 479492
+  }
+}

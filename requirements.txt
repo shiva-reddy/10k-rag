@@ -1,0 +1,27 @@
+# Parsing
+beautifulsoup4>=4.12
+lxml>=5.0
+
+# Markdown handling (chunker reads the interim format)
+markdown-it-py>=3.0
+
+# Config
+PyYAML>=6.0
+
+# Embeddings
+sentence-transformers>=3.0
+torch>=2.0
+
+# Vector DB
+chromadb>=0.5
+
+# LLM (answer step)
+anthropic>=0.40
+
+# Notebook + viz
+jupyter>=1.0
+matplotlib>=3.8
+pandas>=2.0
+
+# Dev / testing
+pytest>=8.0

@@ -1,0 +1,42 @@
+{
+  "ticker": "AAPL",
+  "company": "Apple",
+  "fy_end": "2022-09-24",
+  "fy_label": "FY2022",
+  "calendar_year": 2022,
+  "filed_date": "2022-10-28",
+  "cik": "0000320193",
+  "accession": "0000320193-22-000108",
+  "edgar_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm",
+  "stats": {
+    "items_kept": [
+      "1",
+      "1A",
+      "2",
+      "3",
+      "5",
+      "7",
+      "7A",
+      "8",
+      "9A"
+    ],
+    "items_dropped": [
+      "1B",
+      "4",
+      "6",
+      "9",
+      "9B",
+      "9C",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "tables_kept": 43,
+    "subheadings_kept": 109,
+    "chars_clean": 208821
+  }
+}

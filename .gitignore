@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Embeddings + vector DB (regenerable, large)
+data/chroma/
+data/embeddings/
+*.npy
+*.faiss
+
+# Per-sweep chroma + chunks dirs (regenerable, ~1.8 GB total). Keep results.json.
+data/sweeps/chroma/
+data/sweeps/chunks/
+
+# Cleaned non-MAG7 generalization output (regenerable from raw-html). Keep results.json.
+data/generalization/cleaned/
+
+# Notebooks: keep source, drop checkpoints
+.ipynb_checkpoints/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.local
+*.key
+credentials.json
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Jekyll local-preview artifacts
+docs/_site/
+docs/.sass-cache/
+docs/.jekyll-cache/
+docs/.jekyll-metadata
+docs/vendor/
+docs/.bundle/

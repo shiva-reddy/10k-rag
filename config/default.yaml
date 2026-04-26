@@ -1,0 +1,157 @@
+# 10k-rag — default pipeline configuration
+#
+# Every tunable parameter for the parse → chunk → embed → retrieve → generate
+# pipeline. Each parameter notes its purpose, range, and reasoning behind the
+# default. Variant configs (config/strict.yaml, config/loose.yaml, etc.) can
+# override any subset of these for A/B comparison.
+
+cleaning:                              # parse_10k.py
+  # ── Item retention ─────────────────────────────────────────────────────
+  items_kept: ["1", "1A", "1C", "2", "3", "5", "7", "7A", "8", "9A"]
+  items_dropped: ["1B", "4", "6", "9", "9B", "9C", "10", "11", "12", "13", "14", "15", "16"]
+  # 1B (Unresolved Staff Comments) is "None" almost always.
+  # 10-14 are incorporated by reference to the proxy statement (DEF 14A).
+  # 8 (Financial Statements) IS kept — tables are valuable.
+  # See docs/items.md for the full SEC Reg S-K mandate.
+
+  min_item_chars: 200
+  # If an Item's content is shorter than this, treat as empty/boilerplate
+  # and emit only the heading. Filters out "None" / "Not applicable" sections.
+
+  # ── Table detection ────────────────────────────────────────────────────
+  table_min_rows: 2
+  table_min_cols: 2
+  table_min_text_chars: 80
+  # Below these thresholds, treat the <table> as layout chrome (cover page,
+  # signature blocks) and ignore it. Production 10-Ks have very few layout
+  # tables; this is mostly defensive.
+
+  table_max_nested_depth: 1
+  # If a table contains a table containing a table, treat the outermost as
+  # one chunk and flatten inner cells to text. Deeply nested = malformed.
+
+  table_multirow_header_separator: " / "
+  # When financial statements have stacked headers (e.g., "Year Ended June
+  # 30 / 2025"), flatten with this separator.
+
+  table_empty_cell_marker: "—"
+  # Markdown pipe tables can't have empty cells. Em-dash is the convention.
+
+  # ── Sub-heading detection ──────────────────────────────────────────────
+  subheading_strategies: ["html_heading_tags", "bold_isolated"]
+  # html_heading_tags: <h1>-<h6>
+  # bold_isolated:     <strong>/<b> meeting the rules below
+  # font_size_hints:   detect via inline CSS (disabled by default — too noisy)
+
+  bold_subheading_max_chars: 100
+  # A bold/strong element longer than this is treated as inline emphasis,
+  # not a section heading.
+
+  bold_subheading_must_be_sole_content: true
+  # The bold element must be the only thing in its parent block element.
+  # Filters out "...the term **important** here means..." which is mid-sentence.
+
+  bold_subheading_must_be_followed_by_para: true
+  # The bold element must be followed (in DOM order) by at least one
+  # non-bold paragraph. Otherwise it's likely a label inside a list or
+  # caption.
+
+  drop_xbrl_tags: true                 # always drop ix:nonfraction etc.
+  drop_hidden_elements: true           # display:none, hidden attribute
+  drop_navigation_chrome: true         # "Back to top" links, page anchors
+
+chunking:                              # chunker.py
+  # ── Child sizing ───────────────────────────────────────────────────────
+  child_target_chars: 400
+  # Target paragraph size. Most 10-K paragraphs naturally fall in 200-600
+  # char range, so we mostly DON'T split or merge.
+
+  child_min_chars: 80
+  # If a paragraph is shorter than this, merge it into the next paragraph
+  # (within the same sub-section). Prevents 1-sentence chunks like "We
+  # face risks." which embed badly.
+
+  child_max_chars: 1200
+  # If a paragraph is longer than this, split at sentence boundaries.
+  # 10-K paragraphs are sometimes essay-length; over 1200 chars hurts
+  # retrieval precision.
+
+  # ── Parent sizing ──────────────────────────────────────────────────────
+  parent_max_chars: 12000
+  # Cap parent text size to fit the LLM context budget for ~3-4 unique
+  # parents per query. Items larger than this (Item 1A for META, Item 8
+  # for AMZN) get split at sub-heading boundaries.
+
+  use_subheadings_as_parents: true
+  # When True, parent = sub-heading section if available, else whole Item.
+  # When False, parent = whole Item always (simpler but bigger parents).
+
+  # ── Tables ─────────────────────────────────────────────────────────────
+  table_as_child: true
+  # Treat each table as a single child chunk (chunk_type=table).
+
+  table_embedding_text: "caption_first_row_first_col"
+  # Strategy for what text to embed for table chunks:
+  #   caption_only                 — just the caption, no cell content
+  #   caption_first_row            — caption + column headers
+  #   caption_first_row_first_col  — caption + headers + row labels (default)
+  #   full_text                    — entire table text (bad — numbers are noise)
+
+  table_oversized_threshold: 12000
+  # Tables larger than parent_max_chars stay intact (no splitting mid-row),
+  # but get flagged oversized=true so retrieval can include them with care.
+
+  embed_metadata_prefix: true
+  # Prepend "Company (TICKER) | FY | Item | Sub-heading" to embedding_text
+  # so the index itself is entity-aware. Query "Microsoft AI risk" then
+  # biases toward MSFT chunks without a query-time `where` filter. The
+  # prefix is NOT part of the chunk's `text` field — only the embedder
+  # sees it. Disable to fall back to pure-content embeddings.
+
+embedding:                             # embed.py
+  model: "sentence-transformers/all-MiniLM-L6-v2"
+  # Free, local, 384-dim. Alternatives:
+  #   text-embedding-3-small (OpenAI) — better, ~$0.50 for full corpus
+  #   nomic-embed-text-v1 — also free, 768-dim, larger
+
+  batch_size: 64
+  normalize_embeddings: true           # cosine works on normalized vectors
+
+vector_db:                             # ChromaDB collection
+  collection_name: "mag7_10k"
+  hnsw_M: 16
+  # Bidirectional links per node. Higher = better recall, more memory.
+
+  hnsw_construction_ef: 200
+  # ef during index build. Higher = better index, slower build.
+  # Default 100; we bump to 200 since build is one-time.
+
+  hnsw_search_ef: 50
+  # ef during query. Higher = better recall, slower query.
+  # Default 10; we bump to 50 for accuracy.
+
+  distance: "cosine"
+
+retrieval:                             # rag.py — search step
+  top_k_children: 8
+  # Children to retrieve from ChromaDB. Above ~10 marginal benefit drops.
+
+  max_unique_parents: 4
+  # Cap unique parents after dedupe. Total LLM context ≈ 4 × 12 KB = 48 KB.
+
+  metadata_filters:
+    chunk_type: ["prose", "table"]     # both, or restrict to one
+
+generation:                            # rag.py — answer step
+  llm_model: "claude-haiku-4-5"
+  llm_temperature: 0.0
+  # Temperature 0 for reproducibility; canned queries in the rendered
+  # notebook need stable outputs.
+
+  llm_max_tokens: 1500
+
+  citation_style: "inline_compact"
+  # Options:
+  #   inline_compact     "(MSFT FY24 Item 1A)"
+  #   inline_full        "(Microsoft Corp. FY2024 10-K, Item 1A)"
+  #   footnote_numbered  "...risks¹  ¹MSFT FY24 Item 1A"

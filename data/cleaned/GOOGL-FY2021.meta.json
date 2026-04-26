@@ -1,0 +1,42 @@
+{
+  "ticker": "GOOGL",
+  "company": "Alphabet",
+  "fy_end": "2021-12-31",
+  "fy_label": "FY2021",
+  "calendar_year": 2021,
+  "filed_date": "2022-02-02",
+  "cik": "0001652044",
+  "accession": "0001652044-22-000019",
+  "edgar_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204422000019/goog-20211231.htm",
+  "stats": {
+    "items_kept": [
+      "1",
+      "1A",
+      "2",
+      "3",
+      "5",
+      "7",
+      "7A",
+      "8",
+      "9A"
+    ],
+    "items_dropped": [
+      "1B",
+      "4",
+      "6",
+      "9",
+      "9B",
+      "9C",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "tables_kept": 65,
+    "subheadings_kept": 195,
+    "chars_clean": 332783
+  }
+}

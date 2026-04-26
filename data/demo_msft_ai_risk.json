@@ -1,0 +1,58 @@
+{
+  "query": "How does Microsoft frame AI risk in its risk factors?",
+  "top3_children": [
+    {
+      "chunk_id": "META-FY2023-1A-risks-related-to-our-product-offerings-2-part3-p11",
+      "ticker": "META",
+      "fy": "FY2023",
+      "item": "Item 1A",
+      "sub": "Risks Related to Our Product Offerings",
+      "sim": 0.539,
+      "snip": "There are significant risks involved in developing and deploying AI and there can be no assurance that the usage of AI will enhance our products or services or be beneficial to our business, including our efficiency or profitability. For ex"
+    },
+    {
+      "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p5",
+      "ticker": "MSFT",
+      "fy": "FY2025",
+      "item": "Item 1A",
+      "sub": "Other digital safety abuses",
+      "sim": 0.538,
+      "snip": "Ineffective or inadequate AI development or deployment practices by Microsoft or others could result in incidents that impair the acceptance of AI solutions, cause harm to individuals, customers, or society, or result in our products and se"
+    },
+    {
+      "chunk_id": "MSFT-FY2022-1A-other-digital-safety-abuses-part1-p4",
+      "ticker": "MSFT",
+      "fy": "FY2022",
+      "item": "Item 1A",
+      "sub": "Other digital safety abuses",
+      "sim": 0.535,
+      "snip": "Issues in the development and use of AI may result in reputational harm or liability . We are building AI into many of our offerings, including our productivity services, and we are also making first- and third-party AI available for our cu"
+    }
+  ],
+  "parents": [
+    {
+      "pid": "META-FY2023-1A-risks-related-to-our-product-offerings-2-part3",
+      "ticker": "META",
+      "fy": "FY2023",
+      "item": "Item 1A",
+      "sub": "Risks Related to Our Product Offerings",
+      "len": 10995
+    },
+    {
+      "pid": "MSFT-FY2025-1A-other-digital-safety-abuses-part1",
+      "ticker": "MSFT",
+      "fy": "FY2025",
+      "item": "Item 1A",
+      "sub": "Other digital safety abuses",
+      "len": 11579
+    },
+    {
+      "pid": "MSFT-FY2022-1A-other-digital-safety-abuses-part1",
+      "ticker": "MSFT",
+      "fy": "FY2022",
+      "item": "Item 1A",
+      "sub": "Other digital safety abuses",
+      "len": 11917
+    }
+  ]
+}

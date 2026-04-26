@@ -1,0 +1,4203 @@
+[
+  {
+    "sweep": "embed_metadata_prefix",
+    "setting": true,
+    "label": "S1_embed_prefix_true",
+    "build_seconds": 99.9,
+    "chunk_stats": {
+      "parents": 4583,
+      "children": 22632,
+      "prose": 20802,
+      "tables": 1830
+    },
+    "retrievals": [
+      {
+        "qid": "Q1_msft_ai_risk",
+        "query": "How does Microsoft frame AI risk in its risk factors?",
+        "expected_ticker": "MSFT",
+        "top3": [
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p6",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6459,
+            "snippet": "Finally, if we enable or offer AI solutions that have unintended consequences, unintended usage or customization by our customers and partners, are contrary to "
+          },
+          {
+            "chunk_id": "MSFT-FY2022-1A-other-digital-safety-abuses-part1-p5",
+            "ticker": "MSFT",
+            "fy": "FY2022",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6442,
+            "snippet": "Some AI scenarios present ethical issues. If we enable or offer AI solutions that are controversial because of their impact on human rights, privacy, employment"
+          },
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p5",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6345,
+            "snippet": "Ineffective or inadequate AI development or deployment practices by Microsoft or others could result in incidents that impair the acceptance of AI solutions, ca"
+          }
+        ],
+        "top1_similarity": 0.6459,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q2_aapl_iphone_revenue",
+        "query": "Apple's iPhone revenue in fiscal 2024",
+        "expected_ticker": "AAPL",
+        "top3": [
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p5",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7322,
+            "snippet": "(4) Includes $ 7.5 billion of revenue recognized in 2022 that was included in deferred revenue as of September\u00a025, 2021, $ 6.7 billion of revenue recognized in "
+          },
+          {
+            "chunk_id": "AAPL-FY2023-8-note-2-revenue-p11",
+            "ticker": "AAPL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7253,
+            "snippet": "Total net sales include $ 8.2 billion of revenue recognized in 2023 that was included in deferred revenue as of September\u00a024, 2022, $ 7.5 billion of revenue rec"
+          },
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p6",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7116,
+            "snippet": "The Company\u2019s proportion of net sales by disaggregated revenue source was generally consistent for each reportable segment in Note 11, \u201cSegment Information and "
+          }
+        ],
+        "top1_similarity": 0.7322,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q3_tsla_key_person",
+        "query": "Tesla's key-person succession risk",
+        "expected_ticker": "TSLA",
+        "top3": [
+          {
+            "chunk_id": "TSLA-FY2025-1A-risks-related-to-our-ability-to-grow-our-part2-p7",
+            "ticker": "TSLA",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5243,
+            "snippet": "If the market for electric vehicles in general and Tesla vehicles in particular does not develop as we expect, develops more slowly than we expect, or if demand"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-p1",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5241,
+            "snippet": "You should carefully consider the risks described below together with the other information set forth in this report, which could materially affect our business"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-risks-related-to-our-ability-to-grow-our-part2-p4",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5222,
+            "snippet": "Our future growth and success are dependent upon consumers\u2019 demand for electric vehicles and specifically our vehicles in an automotive industry that is general"
+          }
+        ],
+        "top1_similarity": 0.5243,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q4_googl_cloud_segment",
+        "query": "Google Cloud segment performance",
+        "expected_ticker": "GOOGL",
+        "top3": [
+          {
+            "chunk_id": "GOOGL-FY2023-8-note-15-information-about-segments-and-g-p2",
+            "ticker": "GOOGL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "chunk_type": "prose",
+            "similarity": 0.5572,
+            "snippet": "\u2022 Google Cloud includes infrastructure and platform services, collaboration tools, and other services for enterprise customers. Google Cloud generates revenues "
+          },
+          {
+            "chunk_id": "GOOGL-FY2025-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5541,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          },
+          {
+            "chunk_id": "GOOGL-FY2024-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2024",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5528,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          }
+        ],
+        "top1_similarity": 0.5572,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q5_cyber_mag7",
+        "query": "Cybersecurity governance disclosures across MAG7",
+        "expected_ticker": null,
+        "top3": [
+          {
+            "chunk_id": "META-FY2024-1C-p3",
+            "ticker": "META",
+            "fy": "FY2024",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5705,
+            "snippet": "We use a risk management framework based on applicable laws and regulations, and informed by industry standards and industry-recognized practices, for managing "
+          },
+          {
+            "chunk_id": "META-FY2025-1C-p6",
+            "ticker": "META",
+            "fy": "FY2025",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5613,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the Audit & Priv"
+          },
+          {
+            "chunk_id": "META-FY2023-1C-p6",
+            "ticker": "META",
+            "fy": "FY2023",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5605,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the audit & risk"
+          }
+        ],
+        "top1_similarity": 0.5705,
+        "top3_entity_match": null
+      }
+    ]
+  },
+  {
+    "sweep": "embed_metadata_prefix",
+    "setting": false,
+    "label": "S1_embed_prefix_false",
+    "build_seconds": 86.8,
+    "chunk_stats": {
+      "parents": 4583,
+      "children": 22632,
+      "prose": 20802,
+      "tables": 1830
+    },
+    "retrievals": [
+      {
+        "qid": "Q1_msft_ai_risk",
+        "query": "How does Microsoft frame AI risk in its risk factors?",
+        "expected_ticker": "MSFT",
+        "top3": [
+          {
+            "chunk_id": "META-FY2023-1A-risks-related-to-our-product-offerings-2-part3-p11",
+            "ticker": "META",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Product Offerings",
+            "chunk_type": "prose",
+            "similarity": 0.5387,
+            "snippet": "There are significant risks involved in developing and deploying AI and there can be no assurance that the usage of AI will enhance our products or services or "
+          },
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p5",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.5379,
+            "snippet": "Ineffective or inadequate AI development or deployment practices by Microsoft or others could result in incidents that impair the acceptance of AI solutions, ca"
+          },
+          {
+            "chunk_id": "MSFT-FY2022-1A-other-digital-safety-abuses-part1-p4",
+            "ticker": "MSFT",
+            "fy": "FY2022",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.5345,
+            "snippet": "Issues in the development and use of AI may result in reputational harm or liability . We are building AI into many of our offerings, including our productivity"
+          }
+        ],
+        "top1_similarity": 0.5387,
+        "top3_entity_match": 2
+      },
+      {
+        "qid": "Q2_aapl_iphone_revenue",
+        "query": "Apple's iPhone revenue in fiscal 2024",
+        "expected_ticker": "AAPL",
+        "top3": [
+          {
+            "chunk_id": "AAPL-FY2024-8-note-2-revenue-p10",
+            "ticker": "AAPL",
+            "fy": "FY2024",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7378,
+            "snippet": "Apple Inc. | 2024 Form 10-K | 35 The Company\u2019s proportion of net sales by disaggregated revenue source was generally consistent for each reportable segment in N"
+          },
+          {
+            "chunk_id": "AAPL-FY2025-7-products-and-services-performance-p3",
+            "ticker": "AAPL",
+            "fy": "FY2025",
+            "item": "Item 7",
+            "sub_heading": "Products and Services Performance",
+            "chunk_type": "prose",
+            "similarity": 0.731,
+            "snippet": "iPhone iPhone net sales increased during 2025 compared to 2024 due to higher net sales of Pro models."
+          },
+          {
+            "chunk_id": "AAPL-FY2023-7-products-and-services-performance-p4",
+            "ticker": "AAPL",
+            "fy": "FY2023",
+            "item": "Item 7",
+            "sub_heading": "Products and Services Performance",
+            "chunk_type": "prose",
+            "similarity": 0.7174,
+            "snippet": "iPhone iPhone net sales decreased 2% or $4.9 billion during 2023 compared to 2022 due to lower net sales of non-Pro iPhone models, partially offset by higher ne"
+          }
+        ],
+        "top1_similarity": 0.7378,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q3_tsla_key_person",
+        "query": "Tesla's key-person succession risk",
+        "expected_ticker": "TSLA",
+        "top3": [
+          {
+            "chunk_id": "TSLA-FY2022-1A-we-may-be-required-to-defend-or-insure-a-part1-p17",
+            "ticker": "TSLA",
+            "fy": "FY2022",
+            "item": "Item 1A",
+            "sub_heading": "We may be required to defend or insure against product liability claims.",
+            "chunk_type": "prose",
+            "similarity": 0.5473,
+            "snippet": "Employees may leave Tesla or choose other employers over Tesla due to various factors, such as a very competitive labor market for talented individuals with aut"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1-human-capital-resources-p3",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1",
+            "sub_heading": "Human Capital Resources",
+            "chunk_type": "prose",
+            "similarity": 0.534,
+            "snippet": "We are able to retain our employees, in part, not only because employees can enjoy ownership in Tesla through stock (of which 89% have been given the opportunit"
+          },
+          {
+            "chunk_id": "TSLA-FY2024-1-human-capital-resources-p3",
+            "ticker": "TSLA",
+            "fy": "FY2024",
+            "item": "Item 1",
+            "sub_heading": "Human Capital Resources",
+            "chunk_type": "prose",
+            "similarity": 0.5228,
+            "snippet": "We hire, evaluate and promote employees based on their skills and performance. In 2024, over 13,000 of our employees worldwide, 80% of whom represent Tesla\u2019s fr"
+          }
+        ],
+        "top1_similarity": 0.5473,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q4_googl_cloud_segment",
+        "query": "Google Cloud segment performance",
+        "expected_ticker": "GOOGL",
+        "top3": [
+          {
+            "chunk_id": "GOOGL-FY2023-1-google-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2023",
+            "item": "Item 1",
+            "sub_heading": "Google",
+            "chunk_type": "prose",
+            "similarity": 0.629,
+            "snippet": "For reporting purposes Google comprises two segments: Google Services and Google Cloud."
+          },
+          {
+            "chunk_id": "GOOGL-FY2024-1-google-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2024",
+            "item": "Item 1",
+            "sub_heading": "Google",
+            "chunk_type": "prose",
+            "similarity": 0.629,
+            "snippet": "For reporting purposes Google comprises two segments: Google Services and Google Cloud."
+          },
+          {
+            "chunk_id": "GOOGL-FY2025-1-google-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 1",
+            "sub_heading": "Google",
+            "chunk_type": "prose",
+            "similarity": 0.629,
+            "snippet": "For reporting purposes Google comprises two segments: Google Services and Google Cloud."
+          }
+        ],
+        "top1_similarity": 0.629,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q5_cyber_mag7",
+        "query": "Cybersecurity governance disclosures across MAG7",
+        "expected_ticker": null,
+        "top3": [
+          {
+            "chunk_id": "GOOGL-FY2025-1C-p3",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5958,
+            "snippet": "As part of our cybersecurity risk management process, our incident management teams track and log privacy and security incidents across Alphabet, our vendors, a"
+          },
+          {
+            "chunk_id": "TSLA-FY2024-1C-cybersecurity-risk-management-and-strate-p8",
+            "ticker": "TSLA",
+            "fy": "FY2024",
+            "item": "Item 1C",
+            "sub_heading": "Cybersecurity Risk Management and Strategy",
+            "chunk_type": "prose",
+            "similarity": 0.5753,
+            "snippet": "We describe whether and how risks from identified cybersecurity threats, including as a result of any previous cybersecurity incidents, have materially affected"
+          },
+          {
+            "chunk_id": "TSLA-FY2025-1C-cybersecurity-risk-management-and-strate-p8",
+            "ticker": "TSLA",
+            "fy": "FY2025",
+            "item": "Item 1C",
+            "sub_heading": "Cybersecurity Risk Management and Strategy",
+            "chunk_type": "prose",
+            "similarity": 0.5753,
+            "snippet": "We describe whether and how risks from identified cybersecurity threats, including as a result of any previous cybersecurity incidents, have materially affected"
+          }
+        ],
+        "top1_similarity": 0.5958,
+        "top3_entity_match": null
+      }
+    ]
+  },
+  {
+    "sweep": "child_max_chars",
+    "setting": 600,
+    "label": "S2_child_max_600",
+    "build_seconds": 85.0,
+    "chunk_stats": {
+      "parents": 4583,
+      "children": 29290,
+      "prose": 27460,
+      "tables": 1830
+    },
+    "retrievals": [
+      {
+        "qid": "Q1_msft_ai_risk",
+        "query": "How does Microsoft frame AI risk in its risk factors?",
+        "expected_ticker": "MSFT",
+        "top3": [
+          {
+            "chunk_id": "MSFT-FY2022-1A-other-digital-safety-abuses-part1-p7",
+            "ticker": "MSFT",
+            "fy": "FY2022",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6977,
+            "snippet": "As with many innovations, AI presents risks and challenges that could affect its adoption, and therefore our business. AI algorithms may be flawed. Datasets may"
+          },
+          {
+            "chunk_id": "MSFT-FY2024-1A-other-digital-safety-abuses-part1-p7",
+            "ticker": "MSFT",
+            "fy": "FY2024",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6775,
+            "snippet": "As with many innovations, AI presents risks and challenges that could affect its adoption, and therefore our business. AI algorithms or training methodologies m"
+          },
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p8",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6774,
+            "snippet": "As with many innovations, AI presents risks and challenges that could affect its adoption, and therefore our business. AI algorithms or training methodologies m"
+          }
+        ],
+        "top1_similarity": 0.6977,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q2_aapl_iphone_revenue",
+        "query": "Apple's iPhone revenue in fiscal 2024",
+        "expected_ticker": "AAPL",
+        "top3": [
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p5",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7322,
+            "snippet": "(4) Includes $ 7.5 billion of revenue recognized in 2022 that was included in deferred revenue as of September\u00a025, 2021, $ 6.7 billion of revenue recognized in "
+          },
+          {
+            "chunk_id": "AAPL-FY2023-8-note-2-revenue-p15",
+            "ticker": "AAPL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7253,
+            "snippet": "Total net sales include $ 8.2 billion of revenue recognized in 2023 that was included in deferred revenue as of September\u00a024, 2022, $ 7.5 billion of revenue rec"
+          },
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p6",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7116,
+            "snippet": "The Company\u2019s proportion of net sales by disaggregated revenue source was generally consistent for each reportable segment in Note 11, \u201cSegment Information and "
+          }
+        ],
+        "top1_similarity": 0.7322,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q3_tsla_key_person",
+        "query": "Tesla's key-person succession risk",
+        "expected_ticker": "TSLA",
+        "top3": [
+          {
+            "chunk_id": "TSLA-FY2023-1A-risks-related-to-our-ability-to-grow-our-part2-p15",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5297,
+            "snippet": "If we experience unfavorable global market conditions, or if we cannot or do not maintain operations at a scope that is commensurate with such conditions or are"
+          },
+          {
+            "chunk_id": "TSLA-FY2025-1A-risks-related-to-our-ability-to-grow-our-part2-p11",
+            "ticker": "TSLA",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5243,
+            "snippet": "If the market for electric vehicles in general and Tesla vehicles in particular does not develop as we expect, develops more slowly than we expect, or if demand"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-p1",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5241,
+            "snippet": "You should carefully consider the risks described below together with the other information set forth in this report, which could materially affect our business"
+          }
+        ],
+        "top1_similarity": 0.5297,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q4_googl_cloud_segment",
+        "query": "Google Cloud segment performance",
+        "expected_ticker": "GOOGL",
+        "top3": [
+          {
+            "chunk_id": "GOOGL-FY2023-8-note-15-information-about-segments-and-g-p2",
+            "ticker": "GOOGL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "chunk_type": "prose",
+            "similarity": 0.5572,
+            "snippet": "\u2022 Google Cloud includes infrastructure and platform services, collaboration tools, and other services for enterprise customers. Google Cloud generates revenues "
+          },
+          {
+            "chunk_id": "GOOGL-FY2025-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5541,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          },
+          {
+            "chunk_id": "GOOGL-FY2024-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2024",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5528,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          }
+        ],
+        "top1_similarity": 0.5572,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q5_cyber_mag7",
+        "query": "Cybersecurity governance disclosures across MAG7",
+        "expected_ticker": null,
+        "top3": [
+          {
+            "chunk_id": "META-FY2023-1C-p4",
+            "ticker": "META",
+            "fy": "FY2023",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5679,
+            "snippet": "We use a risk management framework based on applicable laws and regulations, and informed by industry standards and industry-recognized practices, for managing "
+          },
+          {
+            "chunk_id": "META-FY2025-1C-p11",
+            "ticker": "META",
+            "fy": "FY2025",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.566,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the Audit & Priv"
+          },
+          {
+            "chunk_id": "META-FY2023-1A-risks-related-to-data-security-platform--2-part1-p12",
+            "ticker": "META",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Data, Security, Platform Integrity, and Intellectual Property",
+            "chunk_type": "prose",
+            "similarity": 0.5658,
+            "snippet": "Our business and operations span numerous geographies around the world and involve thousands of employees, contractors, vendors, developers, partners, and other"
+          }
+        ],
+        "top1_similarity": 0.5679,
+        "top3_entity_match": null
+      }
+    ]
+  },
+  {
+    "sweep": "child_max_chars",
+    "setting": 1200,
+    "label": "S2_child_max_1200",
+    "build_seconds": 91.5,
+    "chunk_stats": {
+      "parents": 4583,
+      "children": 22632,
+      "prose": 20802,
+      "tables": 1830
+    },
+    "retrievals": [
+      {
+        "qid": "Q1_msft_ai_risk",
+        "query": "How does Microsoft frame AI risk in its risk factors?",
+        "expected_ticker": "MSFT",
+        "top3": [
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p6",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6459,
+            "snippet": "Finally, if we enable or offer AI solutions that have unintended consequences, unintended usage or customization by our customers and partners, are contrary to "
+          },
+          {
+            "chunk_id": "MSFT-FY2022-1A-other-digital-safety-abuses-part1-p5",
+            "ticker": "MSFT",
+            "fy": "FY2022",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6442,
+            "snippet": "Some AI scenarios present ethical issues. If we enable or offer AI solutions that are controversial because of their impact on human rights, privacy, employment"
+          },
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p5",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6345,
+            "snippet": "Ineffective or inadequate AI development or deployment practices by Microsoft or others could result in incidents that impair the acceptance of AI solutions, ca"
+          }
+        ],
+        "top1_similarity": 0.6459,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q2_aapl_iphone_revenue",
+        "query": "Apple's iPhone revenue in fiscal 2024",
+        "expected_ticker": "AAPL",
+        "top3": [
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p5",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7322,
+            "snippet": "(4) Includes $ 7.5 billion of revenue recognized in 2022 that was included in deferred revenue as of September\u00a025, 2021, $ 6.7 billion of revenue recognized in "
+          },
+          {
+            "chunk_id": "AAPL-FY2023-8-note-2-revenue-p11",
+            "ticker": "AAPL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7253,
+            "snippet": "Total net sales include $ 8.2 billion of revenue recognized in 2023 that was included in deferred revenue as of September\u00a024, 2022, $ 7.5 billion of revenue rec"
+          },
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p6",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7116,
+            "snippet": "The Company\u2019s proportion of net sales by disaggregated revenue source was generally consistent for each reportable segment in Note 11, \u201cSegment Information and "
+          }
+        ],
+        "top1_similarity": 0.7322,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q3_tsla_key_person",
+        "query": "Tesla's key-person succession risk",
+        "expected_ticker": "TSLA",
+        "top3": [
+          {
+            "chunk_id": "TSLA-FY2025-1A-risks-related-to-our-ability-to-grow-our-part2-p7",
+            "ticker": "TSLA",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5243,
+            "snippet": "If the market for electric vehicles in general and Tesla vehicles in particular does not develop as we expect, develops more slowly than we expect, or if demand"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-p1",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5241,
+            "snippet": "You should carefully consider the risks described below together with the other information set forth in this report, which could materially affect our business"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-risks-related-to-our-ability-to-grow-our-part2-p4",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5222,
+            "snippet": "Our future growth and success are dependent upon consumers\u2019 demand for electric vehicles and specifically our vehicles in an automotive industry that is general"
+          }
+        ],
+        "top1_similarity": 0.5243,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q4_googl_cloud_segment",
+        "query": "Google Cloud segment performance",
+        "expected_ticker": "GOOGL",
+        "top3": [
+          {
+            "chunk_id": "GOOGL-FY2023-8-note-15-information-about-segments-and-g-p2",
+            "ticker": "GOOGL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "chunk_type": "prose",
+            "similarity": 0.5572,
+            "snippet": "\u2022 Google Cloud includes infrastructure and platform services, collaboration tools, and other services for enterprise customers. Google Cloud generates revenues "
+          },
+          {
+            "chunk_id": "GOOGL-FY2025-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5541,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          },
+          {
+            "chunk_id": "GOOGL-FY2024-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2024",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5528,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          }
+        ],
+        "top1_similarity": 0.5572,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q5_cyber_mag7",
+        "query": "Cybersecurity governance disclosures across MAG7",
+        "expected_ticker": null,
+        "top3": [
+          {
+            "chunk_id": "META-FY2024-1C-p3",
+            "ticker": "META",
+            "fy": "FY2024",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5705,
+            "snippet": "We use a risk management framework based on applicable laws and regulations, and informed by industry standards and industry-recognized practices, for managing "
+          },
+          {
+            "chunk_id": "META-FY2025-1C-p6",
+            "ticker": "META",
+            "fy": "FY2025",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5613,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the Audit & Priv"
+          },
+          {
+            "chunk_id": "META-FY2023-1C-p6",
+            "ticker": "META",
+            "fy": "FY2023",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5605,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the audit & risk"
+          }
+        ],
+        "top1_similarity": 0.5705,
+        "top3_entity_match": null
+      }
+    ]
+  },
+  {
+    "sweep": "child_max_chars",
+    "setting": 2400,
+    "label": "S2_child_max_2400",
+    "build_seconds": 87.6,
+    "chunk_stats": {
+      "parents": 4583,
+      "children": 21329,
+      "prose": 19499,
+      "tables": 1830
+    },
+    "retrievals": [
+      {
+        "qid": "Q1_msft_ai_risk",
+        "query": "How does Microsoft frame AI risk in its risk factors?",
+        "expected_ticker": "MSFT",
+        "top3": [
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p4",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6459,
+            "snippet": "Finally, if we enable or offer AI solutions that have unintended consequences, unintended usage or customization by our customers and partners, are contrary to "
+          },
+          {
+            "chunk_id": "MSFT-FY2021-7-economic-conditions-challenges-and-risks-p5",
+            "ticker": "MSFT",
+            "fy": "FY2021",
+            "item": "Item 7",
+            "sub_heading": "Economic Conditions, Challenges, and Risks",
+            "chunk_type": "prose",
+            "similarity": 0.6173,
+            "snippet": "Refer to Risk Factors (Part I, Item\u00a01A of this Form 10-K) for a discussion of these factors and other risks."
+          },
+          {
+            "chunk_id": "MSFT-FY2023-7-economic-conditions-challenges-and-risks-p6",
+            "ticker": "MSFT",
+            "fy": "FY2023",
+            "item": "Item 7",
+            "sub_heading": "Economic Conditions, Challenges, and Risks",
+            "chunk_type": "prose",
+            "similarity": 0.6165,
+            "snippet": "Refer to Risk Factors (Part I, Item 1A of this Form 10-K) for a discussion of these factors and other risks."
+          }
+        ],
+        "top1_similarity": 0.6459,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q2_aapl_iphone_revenue",
+        "query": "Apple's iPhone revenue in fiscal 2024",
+        "expected_ticker": "AAPL",
+        "top3": [
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p5",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7322,
+            "snippet": "(4) Includes $ 7.5 billion of revenue recognized in 2022 that was included in deferred revenue as of September\u00a025, 2021, $ 6.7 billion of revenue recognized in "
+          },
+          {
+            "chunk_id": "AAPL-FY2023-8-note-2-revenue-p10",
+            "ticker": "AAPL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7253,
+            "snippet": "Total net sales include $ 8.2 billion of revenue recognized in 2023 that was included in deferred revenue as of September\u00a024, 2022, $ 7.5 billion of revenue rec"
+          },
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p6",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7116,
+            "snippet": "The Company\u2019s proportion of net sales by disaggregated revenue source was generally consistent for each reportable segment in Note 11, \u201cSegment Information and "
+          }
+        ],
+        "top1_similarity": 0.7322,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q3_tsla_key_person",
+        "query": "Tesla's key-person succession risk",
+        "expected_ticker": "TSLA",
+        "top3": [
+          {
+            "chunk_id": "TSLA-FY2025-1A-risks-related-to-our-ability-to-grow-our-part2-p6",
+            "ticker": "TSLA",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5243,
+            "snippet": "If the market for electric vehicles in general and Tesla vehicles in particular does not develop as we expect, develops more slowly than we expect, or if demand"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-p1",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5241,
+            "snippet": "You should carefully consider the risks described below together with the other information set forth in this report, which could materially affect our business"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-risks-related-to-our-ability-to-grow-our-part2-p4",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5222,
+            "snippet": "Our future growth and success are dependent upon consumers\u2019 demand for electric vehicles and specifically our vehicles in an automotive industry that is general"
+          }
+        ],
+        "top1_similarity": 0.5243,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q4_googl_cloud_segment",
+        "query": "Google Cloud segment performance",
+        "expected_ticker": "GOOGL",
+        "top3": [
+          {
+            "chunk_id": "GOOGL-FY2023-8-note-15-information-about-segments-and-g-p2",
+            "ticker": "GOOGL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "chunk_type": "prose",
+            "similarity": 0.5572,
+            "snippet": "\u2022 Google Cloud includes infrastructure and platform services, collaboration tools, and other services for enterprise customers. Google Cloud generates revenues "
+          },
+          {
+            "chunk_id": "GOOGL-FY2025-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5541,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          },
+          {
+            "chunk_id": "GOOGL-FY2024-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2024",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5528,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          }
+        ],
+        "top1_similarity": 0.5572,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q5_cyber_mag7",
+        "query": "Cybersecurity governance disclosures across MAG7",
+        "expected_ticker": null,
+        "top3": [
+          {
+            "chunk_id": "META-FY2025-1C-p5",
+            "ticker": "META",
+            "fy": "FY2025",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5613,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the Audit & Priv"
+          },
+          {
+            "chunk_id": "META-FY2023-1C-p4",
+            "ticker": "META",
+            "fy": "FY2023",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5605,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the audit & risk"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1C-cybersecurity-governance-p1",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1C",
+            "sub_heading": "Cybersecurity Governance",
+            "chunk_type": "prose",
+            "similarity": 0.56,
+            "snippet": "Cybersecurity is an important part of our risk management processes and an area of focus for our Board and management. Our Audit Committee is responsible for th"
+          }
+        ],
+        "top1_similarity": 0.5613,
+        "top3_entity_match": null
+      }
+    ]
+  },
+  {
+    "sweep": "table_embedding_text",
+    "setting": "caption_only",
+    "label": "S3_tabletxt_caption_only",
+    "build_seconds": 90.1,
+    "chunk_stats": {
+      "parents": 4583,
+      "children": 22632,
+      "prose": 20802,
+      "tables": 1830
+    },
+    "retrievals_unrestricted": [
+      {
+        "qid": "Q1_msft_ai_risk",
+        "query": "How does Microsoft frame AI risk in its risk factors?",
+        "expected_ticker": "MSFT",
+        "top3": [
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p6",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6459,
+            "snippet": "Finally, if we enable or offer AI solutions that have unintended consequences, unintended usage or customization by our customers and partners, are contrary to "
+          },
+          {
+            "chunk_id": "MSFT-FY2022-1A-other-digital-safety-abuses-part1-p5",
+            "ticker": "MSFT",
+            "fy": "FY2022",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6442,
+            "snippet": "Some AI scenarios present ethical issues. If we enable or offer AI solutions that are controversial because of their impact on human rights, privacy, employment"
+          },
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p5",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6345,
+            "snippet": "Ineffective or inadequate AI development or deployment practices by Microsoft or others could result in incidents that impair the acceptance of AI solutions, ca"
+          }
+        ],
+        "top1_similarity": 0.6459,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q2_aapl_iphone_revenue",
+        "query": "Apple's iPhone revenue in fiscal 2024",
+        "expected_ticker": "AAPL",
+        "top3": [
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p5",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7322,
+            "snippet": "(4) Includes $ 7.5 billion of revenue recognized in 2022 that was included in deferred revenue as of September\u00a025, 2021, $ 6.7 billion of revenue recognized in "
+          },
+          {
+            "chunk_id": "AAPL-FY2023-8-note-2-revenue-p11",
+            "ticker": "AAPL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7253,
+            "snippet": "Total net sales include $ 8.2 billion of revenue recognized in 2023 that was included in deferred revenue as of September\u00a024, 2022, $ 7.5 billion of revenue rec"
+          },
+          {
+            "chunk_id": "AAPL-FY2023-8-note-2-revenue-t1",
+            "ticker": "AAPL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "table",
+            "similarity": 0.7176,
+            "snippet": "**Table: Net sales disaggregated by significant products and services for 2023, 2022 and 2021 were as follows (in millions):** | \u2014 | 2023 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | "
+          }
+        ],
+        "top1_similarity": 0.7322,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q3_tsla_key_person",
+        "query": "Tesla's key-person succession risk",
+        "expected_ticker": "TSLA",
+        "top3": [
+          {
+            "chunk_id": "TSLA-FY2025-1A-risks-related-to-our-ability-to-grow-our-part2-p7",
+            "ticker": "TSLA",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5243,
+            "snippet": "If the market for electric vehicles in general and Tesla vehicles in particular does not develop as we expect, develops more slowly than we expect, or if demand"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-risks-related-to-our-ability-to-grow-our-part2-p4",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5222,
+            "snippet": "Our future growth and success are dependent upon consumers\u2019 demand for electric vehicles and specifically our vehicles in an automotive industry that is general"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-risks-related-to-government-laws-and-reg-p4",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Government Laws and Regulations",
+            "chunk_type": "prose",
+            "similarity": 0.5211,
+            "snippet": "Any reductions or terminations of such incentives may harm our business, prospects, financial condition and operating results by making our products less compet"
+          }
+        ],
+        "top1_similarity": 0.5243,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q4_googl_cloud_segment",
+        "query": "Google Cloud segment performance",
+        "expected_ticker": "GOOGL",
+        "top3": [
+          {
+            "chunk_id": "GOOGL-FY2023-8-note-15-information-about-segments-and-g-p2",
+            "ticker": "GOOGL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "chunk_type": "prose",
+            "similarity": 0.5572,
+            "snippet": "\u2022 Google Cloud includes infrastructure and platform services, collaboration tools, and other services for enterprise customers. Google Cloud generates revenues "
+          },
+          {
+            "chunk_id": "GOOGL-FY2025-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5541,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          },
+          {
+            "chunk_id": "GOOGL-FY2024-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2024",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5528,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          }
+        ],
+        "top1_similarity": 0.5572,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q5_cyber_mag7",
+        "query": "Cybersecurity governance disclosures across MAG7",
+        "expected_ticker": null,
+        "top3": [
+          {
+            "chunk_id": "META-FY2024-1C-p3",
+            "ticker": "META",
+            "fy": "FY2024",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5705,
+            "snippet": "We use a risk management framework based on applicable laws and regulations, and informed by industry standards and industry-recognized practices, for managing "
+          },
+          {
+            "chunk_id": "META-FY2025-1C-p6",
+            "ticker": "META",
+            "fy": "FY2025",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5613,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the Audit & Priv"
+          },
+          {
+            "chunk_id": "META-FY2023-1C-p6",
+            "ticker": "META",
+            "fy": "FY2023",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5605,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the audit & risk"
+          }
+        ],
+        "top1_similarity": 0.5705,
+        "top3_entity_match": null
+      }
+    ],
+    "retrievals_table_only": [
+      {
+        "qid": "Q1_msft_ai_risk",
+        "query": "How does Microsoft frame AI risk in its risk factors?",
+        "expected_ticker": "MSFT",
+        "top3": [
+          {
+            "chunk_id": "MSFT-FY2022-7A-credit-risk-related-contingent-features-t1",
+            "ticker": "MSFT",
+            "fy": "FY2022",
+            "item": "Item 7A",
+            "sub_heading": "Credit-Risk-Related Contingent Features",
+            "chunk_type": "table",
+            "similarity": 0.4312,
+            "snippet": "**Table: Credit-Risk-Related Contingent Features** | (In millions) | \u2014 | \u2014 | |---|---|---| | Designated as Hedging Instruments | \u2014 | \u2014 | | Foreign exchange cont"
+          },
+          {
+            "chunk_id": "MSFT-FY2021-7A-credit-risk-related-contingent-features-t1",
+            "ticker": "MSFT",
+            "fy": "FY2021",
+            "item": "Item 7A",
+            "sub_heading": "Credit-Risk-Related Contingent Features",
+            "chunk_type": "table",
+            "similarity": 0.4303,
+            "snippet": "**Table: Credit-Risk-Related Contingent Features** | (In millions) | \u2014 | \u2014 | |---|---|---| | Designated as Hedging Instruments | \u2014 | \u2014 | | Foreign exchange cont"
+          },
+          {
+            "chunk_id": "MSFT-FY2023-7-research-and-development-t1",
+            "ticker": "MSFT",
+            "fy": "FY2023",
+            "item": "Item 7",
+            "sub_heading": "Research and Development",
+            "chunk_type": "table",
+            "similarity": 0.4287,
+            "snippet": "**Table: Research and Development** | (In millions, except percentages) | \u2014 | \u2014 | \u2014 | |---|---|---|---| | Research and development | 27,195 | 24,512 | 11% | | A"
+          }
+        ],
+        "top1_similarity": 0.4312
+      },
+      {
+        "qid": "Q2_aapl_iphone_revenue",
+        "query": "Apple's iPhone revenue in fiscal 2024",
+        "expected_ticker": "AAPL",
+        "top3": [
+          {
+            "chunk_id": "AAPL-FY2023-8-note-2-revenue-t1",
+            "ticker": "AAPL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "table",
+            "similarity": 0.7176,
+            "snippet": "**Table: Net sales disaggregated by significant products and services for 2023, 2022 and 2021 were as follows (in millions):** | \u2014 | 2023 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | "
+          },
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-t1",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "table",
+            "similarity": 0.6964,
+            "snippet": "**Table: Net sales disaggregated by significant products and services for 2022, 2021 and 2020 were as follows (in millions):** | \u2014 | 2022 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | "
+          },
+          {
+            "chunk_id": "AAPL-FY2024-8-note-2-revenue-t1",
+            "ticker": "AAPL",
+            "fy": "FY2024",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "table",
+            "similarity": 0.696,
+            "snippet": "**Table: Net sales disaggregated by significant products and services for 2024, 2023 and 2022 were as follows (in millions):** | \u2014 | 2024 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | "
+          }
+        ],
+        "top1_similarity": 0.7176
+      },
+      {
+        "qid": "Q3_tsla_key_person",
+        "query": "Tesla's key-person succession risk",
+        "expected_ticker": "TSLA",
+        "top3": [
+          {
+            "chunk_id": "TSLA-FY2023-8-note-10-other-long-term-liabilities-t1",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 10 \u2013 Other Long-Term Liabilities",
+            "chunk_type": "table",
+            "similarity": 0.4185,
+            "snippet": "**Table: Our other long-term liabilities consisted of the following (in millions):** | \u2014 | December 31, 2023 | \u2014 | \u2014 | \u2014 | |---|---|---|---|---| | Operating lea"
+          },
+          {
+            "chunk_id": "TSLA-FY2022-8-note-10-other-long-term-liabilities-t1",
+            "ticker": "TSLA",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 10 \u2013 Other Long-Term Liabilities",
+            "chunk_type": "table",
+            "similarity": 0.4056,
+            "snippet": "**Table: Our other long-term liabilities consisted of the following (in millions):** | \u2014 | December 31, | \u2014 | December 31, | \u2014 | |---|---|---|---|---| | \u2014 | 202"
+          },
+          {
+            "chunk_id": "TSLA-FY2021-8-note-10-other-long-term-liabilities-t1",
+            "ticker": "TSLA",
+            "fy": "FY2021",
+            "item": "Item 8",
+            "sub_heading": "Note 10 \u2013 Other Long-Term Liabilities",
+            "chunk_type": "table",
+            "similarity": 0.4039,
+            "snippet": "**Table: Our other long-term liabilities consisted of the following (in millions):** | \u2014 | December 31, | \u2014 | December 31, | \u2014 | |---|---|---|---|---| | \u2014 | 202"
+          }
+        ],
+        "top1_similarity": 0.4185
+      },
+      {
+        "qid": "Q4_googl_cloud_segment",
+        "query": "Google Cloud segment performance",
+        "expected_ticker": "GOOGL",
+        "top3": [
+          {
+            "chunk_id": "MSFT-FY2021-7-reportable-segments-2-t6",
+            "ticker": "MSFT",
+            "fy": "FY2021",
+            "item": "Item 7",
+            "sub_heading": "Reportable Segments",
+            "chunk_type": "table",
+            "similarity": 0.4563,
+            "snippet": "**Table: Intelligent Cloud** | \u2022 | Server products and cloud services revenue increased $11.2 billion or 27% driven by Azure. Azure revenue grew 50% due to grow"
+          },
+          {
+            "chunk_id": "MSFT-FY2021-7-reportable-segments-2-t7",
+            "ticker": "MSFT",
+            "fy": "FY2021",
+            "item": "Item 7",
+            "sub_heading": "Reportable Segments",
+            "chunk_type": "table",
+            "similarity": 0.4563,
+            "snippet": "**Table: Intelligent Cloud** | \u2022 | Enterprise Services revenue increased $534 million or 8% driven by growth in Premier Support Services. | |---|---|"
+          },
+          {
+            "chunk_id": "GOOGL-FY2025-8-note-15-information-about-segments-and-g-t1",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "chunk_type": "table",
+            "similarity": 0.4095,
+            "snippet": "**Table: The following table presents revenue, profitability, and expense information about our segments (in millions):** | \u2014 | Year Ended December 31, | \u2014 | \u2014 "
+          }
+        ],
+        "top1_similarity": 0.4563
+      },
+      {
+        "qid": "Q5_cyber_mag7",
+        "query": "Cybersecurity governance disclosures across MAG7",
+        "expected_ticker": null,
+        "top3": [
+          {
+            "chunk_id": "MSFT-FY2023-7A-irish-data-protection-commission-matter-t1",
+            "ticker": "MSFT",
+            "fy": "FY2023",
+            "item": "Item 7A",
+            "sub_heading": "Irish Data Protection Commission Matter",
+            "chunk_type": "table",
+            "similarity": 0.4063,
+            "snippet": "**Table: Shares of common stock outstanding were as follows:** | (In millions) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | |---|---|---|---|---|---|---| | Year Ended June 30, | 2"
+          },
+          {
+            "chunk_id": "MSFT-FY2025-7A-irish-data-protection-commission-matter-t1",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 7A",
+            "sub_heading": "Irish Data Protection Commission Matter",
+            "chunk_type": "table",
+            "similarity": 0.3962,
+            "snippet": "**Table: Shares of common stock outstanding were as follows:** | (In millions) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | |---|---|---|---|---|---|---| | Year Ended June 30, | 2"
+          },
+          {
+            "chunk_id": "MSFT-FY2024-8-irish-data-protection-commission-matter-t1",
+            "ticker": "MSFT",
+            "fy": "FY2024",
+            "item": "Item 8",
+            "sub_heading": "Irish Data Protection Commission Matter",
+            "chunk_type": "table",
+            "similarity": 0.3789,
+            "snippet": "**Table: Shares of common stock outstanding were as follows:** | (In millions) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | |---|---|---|---|---|---|---| | Year Ended June 30, | 2"
+          }
+        ],
+        "top1_similarity": 0.4063
+      }
+    ]
+  },
+  {
+    "sweep": "table_embedding_text",
+    "setting": "caption_first_row_first_col",
+    "label": "S3_tabletxt_caption_first_row_first_col",
+    "build_seconds": 91.7,
+    "chunk_stats": {
+      "parents": 4583,
+      "children": 22632,
+      "prose": 20802,
+      "tables": 1830
+    },
+    "retrievals_unrestricted": [
+      {
+        "qid": "Q1_msft_ai_risk",
+        "query": "How does Microsoft frame AI risk in its risk factors?",
+        "expected_ticker": "MSFT",
+        "top3": [
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p6",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6459,
+            "snippet": "Finally, if we enable or offer AI solutions that have unintended consequences, unintended usage or customization by our customers and partners, are contrary to "
+          },
+          {
+            "chunk_id": "MSFT-FY2022-1A-other-digital-safety-abuses-part1-p5",
+            "ticker": "MSFT",
+            "fy": "FY2022",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6442,
+            "snippet": "Some AI scenarios present ethical issues. If we enable or offer AI solutions that are controversial because of their impact on human rights, privacy, employment"
+          },
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p5",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6345,
+            "snippet": "Ineffective or inadequate AI development or deployment practices by Microsoft or others could result in incidents that impair the acceptance of AI solutions, ca"
+          }
+        ],
+        "top1_similarity": 0.6459,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q2_aapl_iphone_revenue",
+        "query": "Apple's iPhone revenue in fiscal 2024",
+        "expected_ticker": "AAPL",
+        "top3": [
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p5",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7322,
+            "snippet": "(4) Includes $ 7.5 billion of revenue recognized in 2022 that was included in deferred revenue as of September\u00a025, 2021, $ 6.7 billion of revenue recognized in "
+          },
+          {
+            "chunk_id": "AAPL-FY2023-8-note-2-revenue-p11",
+            "ticker": "AAPL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7253,
+            "snippet": "Total net sales include $ 8.2 billion of revenue recognized in 2023 that was included in deferred revenue as of September\u00a024, 2022, $ 7.5 billion of revenue rec"
+          },
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p6",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7116,
+            "snippet": "The Company\u2019s proportion of net sales by disaggregated revenue source was generally consistent for each reportable segment in Note 11, \u201cSegment Information and "
+          }
+        ],
+        "top1_similarity": 0.7322,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q3_tsla_key_person",
+        "query": "Tesla's key-person succession risk",
+        "expected_ticker": "TSLA",
+        "top3": [
+          {
+            "chunk_id": "TSLA-FY2025-1A-risks-related-to-our-ability-to-grow-our-part2-p7",
+            "ticker": "TSLA",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5243,
+            "snippet": "If the market for electric vehicles in general and Tesla vehicles in particular does not develop as we expect, develops more slowly than we expect, or if demand"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-p1",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5241,
+            "snippet": "You should carefully consider the risks described below together with the other information set forth in this report, which could materially affect our business"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-risks-related-to-our-ability-to-grow-our-part2-p4",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5222,
+            "snippet": "Our future growth and success are dependent upon consumers\u2019 demand for electric vehicles and specifically our vehicles in an automotive industry that is general"
+          }
+        ],
+        "top1_similarity": 0.5243,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q4_googl_cloud_segment",
+        "query": "Google Cloud segment performance",
+        "expected_ticker": "GOOGL",
+        "top3": [
+          {
+            "chunk_id": "GOOGL-FY2023-8-note-15-information-about-segments-and-g-p2",
+            "ticker": "GOOGL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "chunk_type": "prose",
+            "similarity": 0.5572,
+            "snippet": "\u2022 Google Cloud includes infrastructure and platform services, collaboration tools, and other services for enterprise customers. Google Cloud generates revenues "
+          },
+          {
+            "chunk_id": "GOOGL-FY2025-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5541,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          },
+          {
+            "chunk_id": "GOOGL-FY2024-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2024",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5528,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          }
+        ],
+        "top1_similarity": 0.5572,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q5_cyber_mag7",
+        "query": "Cybersecurity governance disclosures across MAG7",
+        "expected_ticker": null,
+        "top3": [
+          {
+            "chunk_id": "META-FY2024-1C-p3",
+            "ticker": "META",
+            "fy": "FY2024",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5705,
+            "snippet": "We use a risk management framework based on applicable laws and regulations, and informed by industry standards and industry-recognized practices, for managing "
+          },
+          {
+            "chunk_id": "META-FY2025-1C-p6",
+            "ticker": "META",
+            "fy": "FY2025",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5613,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the Audit & Priv"
+          },
+          {
+            "chunk_id": "META-FY2023-1C-p6",
+            "ticker": "META",
+            "fy": "FY2023",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5605,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the audit & risk"
+          }
+        ],
+        "top1_similarity": 0.5705,
+        "top3_entity_match": null
+      }
+    ],
+    "retrievals_table_only": [
+      {
+        "qid": "Q1_msft_ai_risk",
+        "query": "How does Microsoft frame AI risk in its risk factors?",
+        "expected_ticker": "MSFT",
+        "top3": [
+          {
+            "chunk_id": "MSFT-FY2022-7A-equity-t1",
+            "ticker": "MSFT",
+            "fy": "FY2022",
+            "item": "Item 7A",
+            "sub_heading": "Equity",
+            "chunk_type": "table",
+            "similarity": 0.4334,
+            "snippet": "**Table: SENSITIVITY ANALYSIS** | (In millions) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | |---|---|---|---|---|---| | Risk Categories | Hypothetical Change | June 30, 2022 | \u2014 | Im"
+          },
+          {
+            "chunk_id": "MSFT-FY2021-7A-equity-t1",
+            "ticker": "MSFT",
+            "fy": "FY2021",
+            "item": "Item 7A",
+            "sub_heading": "Equity",
+            "chunk_type": "table",
+            "similarity": 0.4284,
+            "snippet": "**Table: SENSITIVITY ANALYSIS** | (In millions) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | |---|---|---|---|---|---| | Risk Categories | Hypothetical Change | June 30, 2021 | \u2014 | Im"
+          },
+          {
+            "chunk_id": "MSFT-FY2022-7-t7",
+            "ticker": "MSFT",
+            "fy": "FY2022",
+            "item": "Item 7",
+            "sub_heading": "",
+            "chunk_type": "table",
+            "similarity": 0.4264,
+            "snippet": "**Table: (no caption)** | \u2022 | Operating expenses increased $1.5 billion or 14% driven by investments in Gaming, Search and news advertising, and Windows marketi"
+          }
+        ],
+        "top1_similarity": 0.4334
+      },
+      {
+        "qid": "Q2_aapl_iphone_revenue",
+        "query": "Apple's iPhone revenue in fiscal 2024",
+        "expected_ticker": "AAPL",
+        "top3": [
+          {
+            "chunk_id": "AAPL-FY2023-8-note-2-revenue-t1",
+            "ticker": "AAPL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "table",
+            "similarity": 0.708,
+            "snippet": "**Table: Net sales disaggregated by significant products and services for 2023, 2022 and 2021 were as follows (in millions):** | \u2014 | 2023 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | "
+          },
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-t1",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "table",
+            "similarity": 0.6943,
+            "snippet": "**Table: Net sales disaggregated by significant products and services for 2022, 2021 and 2020 were as follows (in millions):** | \u2014 | 2022 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | "
+          },
+          {
+            "chunk_id": "AAPL-FY2024-8-note-2-revenue-t1",
+            "ticker": "AAPL",
+            "fy": "FY2024",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "table",
+            "similarity": 0.6724,
+            "snippet": "**Table: Net sales disaggregated by significant products and services for 2024, 2023 and 2022 were as follows (in millions):** | \u2014 | 2024 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | "
+          }
+        ],
+        "top1_similarity": 0.708
+      },
+      {
+        "qid": "Q3_tsla_key_person",
+        "query": "Tesla's key-person succession risk",
+        "expected_ticker": "TSLA",
+        "top3": [
+          {
+            "chunk_id": "TSLA-FY2023-7-restructuring-and-other-t1",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 7",
+            "sub_heading": "Restructuring and Other",
+            "chunk_type": "table",
+            "similarity": 0.4157,
+            "snippet": "**Table: Restructuring and Other** | \u2014 | Year Ended December 31, | 2023 vs. 2022 Change | 2022 vs. 2021 Change | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | |---|---|---|---|---|--"
+          },
+          {
+            "chunk_id": "TSLA-FY2025-7-restructuring-and-other-t1",
+            "ticker": "TSLA",
+            "fy": "FY2025",
+            "item": "Item 7",
+            "sub_heading": "Restructuring and Other",
+            "chunk_type": "table",
+            "similarity": 0.4059,
+            "snippet": "**Table: Restructuring and Other** | \u2014 | Year Ended December 31, | \u2014 | 2025 vs. 2024 Change | 2024 vs. 2023 Change | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | |---|---|---|---|---|--"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-8-uncertain-tax-positions-t1",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Uncertain Tax Positions",
+            "chunk_type": "table",
+            "similarity": 0.4047,
+            "snippet": "**Table: The changes to our gross unrecognized tax benefits were as follows (in millions):** | December 31, 2020 | $ | 380 | |---|---|---| | Increases in balanc"
+          }
+        ],
+        "top1_similarity": 0.4157
+      },
+      {
+        "qid": "Q4_googl_cloud_segment",
+        "query": "Google Cloud segment performance",
+        "expected_ticker": "GOOGL",
+        "top3": [
+          {
+            "chunk_id": "GOOGL-FY2022-8-note-15-information-about-segments-and-g-t1",
+            "ticker": "GOOGL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "chunk_type": "table",
+            "similarity": 0.5249,
+            "snippet": "**Table: The following table presents information about our segments (in millions):** | \u2014 | Year Ended December 31, | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | |---|---|---|-"
+          },
+          {
+            "chunk_id": "GOOGL-FY2025-8-note-15-information-about-segments-and-g-t1",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "chunk_type": "table",
+            "similarity": 0.5112,
+            "snippet": "**Table: The following table presents revenue, profitability, and expense information about our segments (in millions):** | \u2014 | Year Ended December 31, | \u2014 | \u2014 "
+          },
+          {
+            "chunk_id": "GOOGL-FY2023-8-note-15-information-about-segments-and-g-t1",
+            "ticker": "GOOGL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "chunk_type": "table",
+            "similarity": 0.5034,
+            "snippet": "**Table: The following table presents information about our segments (in millions):** | \u2014 | Year Ended December 31, | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | |---|---|---|-"
+          }
+        ],
+        "top1_similarity": 0.5249
+      },
+      {
+        "qid": "Q5_cyber_mag7",
+        "query": "Cybersecurity governance disclosures across MAG7",
+        "expected_ticker": null,
+        "top3": [
+          {
+            "chunk_id": "META-FY2022-8-recently-adopted-accounting-pronouncemen-part2-t1",
+            "ticker": "META",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Recently Adopted Accounting Pronouncements",
+            "chunk_type": "table",
+            "similarity": 0.3757,
+            "snippet": "**Table: T able of Contents** | \u2014 | December 31, 2022 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | |---|---|---|---|---|---|---|---|---|---|---|---"
+          },
+          {
+            "chunk_id": "META-FY2022-8-recently-adopted-accounting-pronouncemen-part2-t2",
+            "ticker": "META",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Recently Adopted Accounting Pronouncements",
+            "chunk_type": "table",
+            "similarity": 0.3721,
+            "snippet": "**Table: T able of Contents** | \u2014 | December 31, 2021 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | |---|---|---|---|---|---|---|---|---|---|---|---"
+          },
+          {
+            "chunk_id": "MSFT-FY2024-7A-income-taxes-improvements-to-income-tax--part1-t8",
+            "ticker": "MSFT",
+            "fy": "FY2024",
+            "item": "Item 7A",
+            "sub_heading": "Income Taxes \u2013 Improvements to Income Tax Disclosures",
+            "chunk_type": "table",
+            "similarity": 0.3711,
+            "snippet": "**Table: Unrealized Losses on Debt Investments** | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | |---|---|---|---|---|---|---| | (In millions) | Fair Value | Unrealized Losses | "
+          }
+        ],
+        "top1_similarity": 0.3757
+      }
+    ]
+  },
+  {
+    "sweep": "table_embedding_text",
+    "setting": "full_text",
+    "label": "S3_tabletxt_full_text",
+    "build_seconds": 103.1,
+    "chunk_stats": {
+      "parents": 4583,
+      "children": 22632,
+      "prose": 20802,
+      "tables": 1830
+    },
+    "retrievals_unrestricted": [
+      {
+        "qid": "Q1_msft_ai_risk",
+        "query": "How does Microsoft frame AI risk in its risk factors?",
+        "expected_ticker": "MSFT",
+        "top3": [
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p6",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6459,
+            "snippet": "Finally, if we enable or offer AI solutions that have unintended consequences, unintended usage or customization by our customers and partners, are contrary to "
+          },
+          {
+            "chunk_id": "MSFT-FY2022-1A-other-digital-safety-abuses-part1-p5",
+            "ticker": "MSFT",
+            "fy": "FY2022",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6442,
+            "snippet": "Some AI scenarios present ethical issues. If we enable or offer AI solutions that are controversial because of their impact on human rights, privacy, employment"
+          },
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p5",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6345,
+            "snippet": "Ineffective or inadequate AI development or deployment practices by Microsoft or others could result in incidents that impair the acceptance of AI solutions, ca"
+          }
+        ],
+        "top1_similarity": 0.6459,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q2_aapl_iphone_revenue",
+        "query": "Apple's iPhone revenue in fiscal 2024",
+        "expected_ticker": "AAPL",
+        "top3": [
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p5",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7322,
+            "snippet": "(4) Includes $ 7.5 billion of revenue recognized in 2022 that was included in deferred revenue as of September\u00a025, 2021, $ 6.7 billion of revenue recognized in "
+          },
+          {
+            "chunk_id": "AAPL-FY2023-8-note-2-revenue-p11",
+            "ticker": "AAPL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7253,
+            "snippet": "Total net sales include $ 8.2 billion of revenue recognized in 2023 that was included in deferred revenue as of September\u00a024, 2022, $ 7.5 billion of revenue rec"
+          },
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p6",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7116,
+            "snippet": "The Company\u2019s proportion of net sales by disaggregated revenue source was generally consistent for each reportable segment in Note 11, \u201cSegment Information and "
+          }
+        ],
+        "top1_similarity": 0.7322,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q3_tsla_key_person",
+        "query": "Tesla's key-person succession risk",
+        "expected_ticker": "TSLA",
+        "top3": [
+          {
+            "chunk_id": "TSLA-FY2025-1A-risks-related-to-our-ability-to-grow-our-part2-p7",
+            "ticker": "TSLA",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5243,
+            "snippet": "If the market for electric vehicles in general and Tesla vehicles in particular does not develop as we expect, develops more slowly than we expect, or if demand"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-p1",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5241,
+            "snippet": "You should carefully consider the risks described below together with the other information set forth in this report, which could materially affect our business"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-risks-related-to-our-ability-to-grow-our-part2-p4",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5222,
+            "snippet": "Our future growth and success are dependent upon consumers\u2019 demand for electric vehicles and specifically our vehicles in an automotive industry that is general"
+          }
+        ],
+        "top1_similarity": 0.5243,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q4_googl_cloud_segment",
+        "query": "Google Cloud segment performance",
+        "expected_ticker": "GOOGL",
+        "top3": [
+          {
+            "chunk_id": "GOOGL-FY2023-8-note-15-information-about-segments-and-g-p2",
+            "ticker": "GOOGL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "chunk_type": "prose",
+            "similarity": 0.5572,
+            "snippet": "\u2022 Google Cloud includes infrastructure and platform services, collaboration tools, and other services for enterprise customers. Google Cloud generates revenues "
+          },
+          {
+            "chunk_id": "GOOGL-FY2025-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5541,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          },
+          {
+            "chunk_id": "GOOGL-FY2024-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2024",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5528,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          }
+        ],
+        "top1_similarity": 0.5572,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q5_cyber_mag7",
+        "query": "Cybersecurity governance disclosures across MAG7",
+        "expected_ticker": null,
+        "top3": [
+          {
+            "chunk_id": "META-FY2024-1C-p3",
+            "ticker": "META",
+            "fy": "FY2024",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5705,
+            "snippet": "We use a risk management framework based on applicable laws and regulations, and informed by industry standards and industry-recognized practices, for managing "
+          },
+          {
+            "chunk_id": "META-FY2025-1C-p6",
+            "ticker": "META",
+            "fy": "FY2025",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5613,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the Audit & Priv"
+          },
+          {
+            "chunk_id": "META-FY2023-1C-p6",
+            "ticker": "META",
+            "fy": "FY2023",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5605,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the audit & risk"
+          }
+        ],
+        "top1_similarity": 0.5705,
+        "top3_entity_match": null
+      }
+    ],
+    "retrievals_table_only": [
+      {
+        "qid": "Q1_msft_ai_risk",
+        "query": "How does Microsoft frame AI risk in its risk factors?",
+        "expected_ticker": "MSFT",
+        "top3": [
+          {
+            "chunk_id": "MSFT-FY2022-7-t4",
+            "ticker": "MSFT",
+            "fy": "FY2022",
+            "item": "Item 7",
+            "sub_heading": "",
+            "chunk_type": "table",
+            "similarity": 0.375,
+            "snippet": "**Table: More Personal Computing** | \u2022 | Windows revenue increased $2.3 billion or 10% driven by growth in Windows OEM and Windows Commercial. Windows OEM reven"
+          },
+          {
+            "chunk_id": "MSFT-FY2022-7-t7",
+            "ticker": "MSFT",
+            "fy": "FY2022",
+            "item": "Item 7",
+            "sub_heading": "",
+            "chunk_type": "table",
+            "similarity": 0.3727,
+            "snippet": "**Table: (no caption)** | \u2022 | Operating expenses increased $1.5 billion or 14% driven by investments in Gaming, Search and news advertising, and Windows marketi"
+          },
+          {
+            "chunk_id": "MSFT-FY2022-7-t5",
+            "ticker": "MSFT",
+            "fy": "FY2022",
+            "item": "Item 7",
+            "sub_heading": "",
+            "chunk_type": "table",
+            "similarity": 0.3576,
+            "snippet": "**Table: More Personal Computing** | \u2022 | Search and news advertising revenue increased $2.3 billion or 25%. Search and news advertising revenue excluding traffi"
+          }
+        ],
+        "top1_similarity": 0.375
+      },
+      {
+        "qid": "Q2_aapl_iphone_revenue",
+        "query": "Apple's iPhone revenue in fiscal 2024",
+        "expected_ticker": "AAPL",
+        "top3": [
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-t1",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "table",
+            "similarity": 0.6301,
+            "snippet": "**Table: Net sales disaggregated by significant products and services for 2022, 2021 and 2020 were as follows (in millions):** | \u2014 | 2022 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | "
+          },
+          {
+            "chunk_id": "AAPL-FY2021-8-disaggregated-revenue-t1",
+            "ticker": "AAPL",
+            "fy": "FY2021",
+            "item": "Item 8",
+            "sub_heading": "Disaggregated Revenue",
+            "chunk_type": "table",
+            "similarity": 0.6299,
+            "snippet": "**Table: Net sales disaggregated by significant products and services for 2021, 2020 and 2019 were as follows (in millions):** | \u2014 | 2021 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | "
+          },
+          {
+            "chunk_id": "AAPL-FY2023-8-note-2-revenue-t1",
+            "ticker": "AAPL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "table",
+            "similarity": 0.6259,
+            "snippet": "**Table: Net sales disaggregated by significant products and services for 2023, 2022 and 2021 were as follows (in millions):** | \u2014 | 2023 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | "
+          }
+        ],
+        "top1_similarity": 0.6301
+      },
+      {
+        "qid": "Q3_tsla_key_person",
+        "query": "Tesla's key-person succession risk",
+        "expected_ticker": "TSLA",
+        "top3": [
+          {
+            "chunk_id": "TSLA-FY2022-8-uncertain-tax-positions-t1",
+            "ticker": "TSLA",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Uncertain Tax Positions",
+            "chunk_type": "table",
+            "similarity": 0.3819,
+            "snippet": "**Table: The changes to our gross unrecognized tax benefits were as follows (in millions):** | December 31, 2019 | 273 | |---|---| | Increases in balances relat"
+          },
+          {
+            "chunk_id": "TSLA-FY2024-8-uncertain-tax-positions-t1",
+            "ticker": "TSLA",
+            "fy": "FY2024",
+            "item": "Item 8",
+            "sub_heading": "Uncertain Tax Positions",
+            "chunk_type": "table",
+            "similarity": 0.3788,
+            "snippet": "**Table: The changes to our gross unrecognized tax benefits were as follows (in millions):** | December 31, 2021 | $ | 531 | |---|---|---| | Increases in balanc"
+          },
+          {
+            "chunk_id": "TSLA-FY2022-8-note-14-income-taxes-t4",
+            "ticker": "TSLA",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 14 \u2013 Income Taxes",
+            "chunk_type": "table",
+            "similarity": 0.3757,
+            "snippet": "**Table: Deferred tax assets (liabilities) as of December 31, 2022 and 2021 consisted of the following (in millions): 81** | \u2014 | Year Ended December 31, | \u2014 | \u2014"
+          }
+        ],
+        "top1_similarity": 0.3819
+      },
+      {
+        "qid": "Q4_googl_cloud_segment",
+        "query": "Google Cloud segment performance",
+        "expected_ticker": "GOOGL",
+        "top3": [
+          {
+            "chunk_id": "GOOGL-FY2025-8-note-15-information-about-segments-and-g-t1",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "chunk_type": "table",
+            "similarity": 0.4266,
+            "snippet": "**Table: The following table presents revenue, profitability, and expense information about our segments (in millions):** | \u2014 | Year Ended December 31, | \u2014 | \u2014 "
+          },
+          {
+            "chunk_id": "GOOGL-FY2024-8-note-15-information-about-segments-and-g-t1",
+            "ticker": "GOOGL",
+            "fy": "FY2024",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "chunk_type": "table",
+            "similarity": 0.4241,
+            "snippet": "**Table: The following table presents revenue, profitability, and expense information about our segments (in millions):** | \u2014 | Year Ended December 31, | \u2014 | \u2014 "
+          },
+          {
+            "chunk_id": "GOOGL-FY2022-8-note-15-information-about-segments-and-g-t1",
+            "ticker": "GOOGL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "chunk_type": "table",
+            "similarity": 0.4141,
+            "snippet": "**Table: The following table presents information about our segments (in millions):** | \u2014 | Year Ended December 31, | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | |---|---|---|-"
+          }
+        ],
+        "top1_similarity": 0.4266
+      },
+      {
+        "qid": "Q5_cyber_mag7",
+        "query": "Cybersecurity governance disclosures across MAG7",
+        "expected_ticker": null,
+        "top3": [
+          {
+            "chunk_id": "AMZN-FY2021-1-board-of-directors-t1",
+            "ticker": "AMZN",
+            "fy": "FY2021",
+            "item": "Item 1",
+            "sub_heading": "Board of Directors",
+            "chunk_type": "table",
+            "similarity": 0.3864,
+            "snippet": "**Table: Board of Directors** | Name | Age | Position | |---|---|---| | Jeffrey P. Bezos | 58 | Executive Chair | | Andrew R. Jassy | 54 | President and Chief E"
+          },
+          {
+            "chunk_id": "MSFT-FY2022-1-partner-programs-t2",
+            "ticker": "MSFT",
+            "fy": "FY2022",
+            "item": "Item 1",
+            "sub_heading": "Partner Programs",
+            "chunk_type": "table",
+            "similarity": 0.3465,
+            "snippet": "**Table: AVAILABLE INFORMATION** | \u2022 | Our annual report on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K, and any amendments to those "
+          },
+          {
+            "chunk_id": "AMZN-FY2025-1-board-of-directors-t1",
+            "ticker": "AMZN",
+            "fy": "FY2025",
+            "item": "Item 1",
+            "sub_heading": "Board of Directors",
+            "chunk_type": "table",
+            "similarity": 0.3457,
+            "snippet": "**Table: Board of Directors** | Name | Age | Position | |---|---|---| | Jeffrey P. Bezos | 62 | Executive Chair | | Andrew R. Jassy | 58 | President and Chief E"
+          }
+        ],
+        "top1_similarity": 0.3864
+      }
+    ]
+  },
+  {
+    "sweep": "hnsw_search_ef",
+    "setting": 10,
+    "label": "S4_search_ef_10",
+    "retrievals": [
+      {
+        "qid": "Q1_msft_ai_risk",
+        "query": "How does Microsoft frame AI risk in its risk factors?",
+        "expected_ticker": "MSFT",
+        "top3": [
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p6",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6459,
+            "snippet": "Finally, if we enable or offer AI solutions that have unintended consequences, unintended usage or customization by our customers and partners, are contrary to "
+          },
+          {
+            "chunk_id": "MSFT-FY2022-1A-other-digital-safety-abuses-part1-p5",
+            "ticker": "MSFT",
+            "fy": "FY2022",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6442,
+            "snippet": "Some AI scenarios present ethical issues. If we enable or offer AI solutions that are controversial because of their impact on human rights, privacy, employment"
+          },
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p5",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6345,
+            "snippet": "Ineffective or inadequate AI development or deployment practices by Microsoft or others could result in incidents that impair the acceptance of AI solutions, ca"
+          }
+        ],
+        "top1_similarity": 0.6459,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q2_aapl_iphone_revenue",
+        "query": "Apple's iPhone revenue in fiscal 2024",
+        "expected_ticker": "AAPL",
+        "top3": [
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p5",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7322,
+            "snippet": "(4) Includes $ 7.5 billion of revenue recognized in 2022 that was included in deferred revenue as of September\u00a025, 2021, $ 6.7 billion of revenue recognized in "
+          },
+          {
+            "chunk_id": "AAPL-FY2023-8-note-2-revenue-p11",
+            "ticker": "AAPL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7253,
+            "snippet": "Total net sales include $ 8.2 billion of revenue recognized in 2023 that was included in deferred revenue as of September\u00a024, 2022, $ 7.5 billion of revenue rec"
+          },
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p6",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7116,
+            "snippet": "The Company\u2019s proportion of net sales by disaggregated revenue source was generally consistent for each reportable segment in Note 11, \u201cSegment Information and "
+          }
+        ],
+        "top1_similarity": 0.7322,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q3_tsla_key_person",
+        "query": "Tesla's key-person succession risk",
+        "expected_ticker": "TSLA",
+        "top3": [
+          {
+            "chunk_id": "TSLA-FY2025-1A-risks-related-to-our-ability-to-grow-our-part2-p7",
+            "ticker": "TSLA",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5243,
+            "snippet": "If the market for electric vehicles in general and Tesla vehicles in particular does not develop as we expect, develops more slowly than we expect, or if demand"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-p1",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5241,
+            "snippet": "You should carefully consider the risks described below together with the other information set forth in this report, which could materially affect our business"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-risks-related-to-our-ability-to-grow-our-part2-p4",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5222,
+            "snippet": "Our future growth and success are dependent upon consumers\u2019 demand for electric vehicles and specifically our vehicles in an automotive industry that is general"
+          }
+        ],
+        "top1_similarity": 0.5243,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q4_googl_cloud_segment",
+        "query": "Google Cloud segment performance",
+        "expected_ticker": "GOOGL",
+        "top3": [
+          {
+            "chunk_id": "GOOGL-FY2023-8-note-15-information-about-segments-and-g-p2",
+            "ticker": "GOOGL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "chunk_type": "prose",
+            "similarity": 0.5572,
+            "snippet": "\u2022 Google Cloud includes infrastructure and platform services, collaboration tools, and other services for enterprise customers. Google Cloud generates revenues "
+          },
+          {
+            "chunk_id": "GOOGL-FY2025-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5541,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          },
+          {
+            "chunk_id": "GOOGL-FY2024-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2024",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5528,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          }
+        ],
+        "top1_similarity": 0.5572,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q5_cyber_mag7",
+        "query": "Cybersecurity governance disclosures across MAG7",
+        "expected_ticker": null,
+        "top3": [
+          {
+            "chunk_id": "META-FY2024-1C-p3",
+            "ticker": "META",
+            "fy": "FY2024",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5705,
+            "snippet": "We use a risk management framework based on applicable laws and regulations, and informed by industry standards and industry-recognized practices, for managing "
+          },
+          {
+            "chunk_id": "META-FY2025-1C-p6",
+            "ticker": "META",
+            "fy": "FY2025",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5613,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the Audit & Priv"
+          },
+          {
+            "chunk_id": "META-FY2023-1C-p6",
+            "ticker": "META",
+            "fy": "FY2023",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5605,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the audit & risk"
+          }
+        ],
+        "top1_similarity": 0.5705,
+        "top3_entity_match": null
+      }
+    ]
+  },
+  {
+    "sweep": "hnsw_search_ef",
+    "setting": 50,
+    "label": "S4_search_ef_50",
+    "retrievals": [
+      {
+        "qid": "Q1_msft_ai_risk",
+        "query": "How does Microsoft frame AI risk in its risk factors?",
+        "expected_ticker": "MSFT",
+        "top3": [
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p6",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6459,
+            "snippet": "Finally, if we enable or offer AI solutions that have unintended consequences, unintended usage or customization by our customers and partners, are contrary to "
+          },
+          {
+            "chunk_id": "MSFT-FY2022-1A-other-digital-safety-abuses-part1-p5",
+            "ticker": "MSFT",
+            "fy": "FY2022",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6442,
+            "snippet": "Some AI scenarios present ethical issues. If we enable or offer AI solutions that are controversial because of their impact on human rights, privacy, employment"
+          },
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p5",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6345,
+            "snippet": "Ineffective or inadequate AI development or deployment practices by Microsoft or others could result in incidents that impair the acceptance of AI solutions, ca"
+          }
+        ],
+        "top1_similarity": 0.6459,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q2_aapl_iphone_revenue",
+        "query": "Apple's iPhone revenue in fiscal 2024",
+        "expected_ticker": "AAPL",
+        "top3": [
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p5",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7322,
+            "snippet": "(4) Includes $ 7.5 billion of revenue recognized in 2022 that was included in deferred revenue as of September\u00a025, 2021, $ 6.7 billion of revenue recognized in "
+          },
+          {
+            "chunk_id": "AAPL-FY2023-8-note-2-revenue-p11",
+            "ticker": "AAPL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7253,
+            "snippet": "Total net sales include $ 8.2 billion of revenue recognized in 2023 that was included in deferred revenue as of September\u00a024, 2022, $ 7.5 billion of revenue rec"
+          },
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p6",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7116,
+            "snippet": "The Company\u2019s proportion of net sales by disaggregated revenue source was generally consistent for each reportable segment in Note 11, \u201cSegment Information and "
+          }
+        ],
+        "top1_similarity": 0.7322,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q3_tsla_key_person",
+        "query": "Tesla's key-person succession risk",
+        "expected_ticker": "TSLA",
+        "top3": [
+          {
+            "chunk_id": "TSLA-FY2025-1A-risks-related-to-our-ability-to-grow-our-part2-p7",
+            "ticker": "TSLA",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5243,
+            "snippet": "If the market for electric vehicles in general and Tesla vehicles in particular does not develop as we expect, develops more slowly than we expect, or if demand"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-p1",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5241,
+            "snippet": "You should carefully consider the risks described below together with the other information set forth in this report, which could materially affect our business"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-risks-related-to-our-ability-to-grow-our-part2-p4",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5222,
+            "snippet": "Our future growth and success are dependent upon consumers\u2019 demand for electric vehicles and specifically our vehicles in an automotive industry that is general"
+          }
+        ],
+        "top1_similarity": 0.5243,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q4_googl_cloud_segment",
+        "query": "Google Cloud segment performance",
+        "expected_ticker": "GOOGL",
+        "top3": [
+          {
+            "chunk_id": "GOOGL-FY2023-8-note-15-information-about-segments-and-g-p2",
+            "ticker": "GOOGL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "chunk_type": "prose",
+            "similarity": 0.5572,
+            "snippet": "\u2022 Google Cloud includes infrastructure and platform services, collaboration tools, and other services for enterprise customers. Google Cloud generates revenues "
+          },
+          {
+            "chunk_id": "GOOGL-FY2025-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5541,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          },
+          {
+            "chunk_id": "GOOGL-FY2024-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2024",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5528,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          }
+        ],
+        "top1_similarity": 0.5572,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q5_cyber_mag7",
+        "query": "Cybersecurity governance disclosures across MAG7",
+        "expected_ticker": null,
+        "top3": [
+          {
+            "chunk_id": "META-FY2024-1C-p3",
+            "ticker": "META",
+            "fy": "FY2024",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5705,
+            "snippet": "We use a risk management framework based on applicable laws and regulations, and informed by industry standards and industry-recognized practices, for managing "
+          },
+          {
+            "chunk_id": "META-FY2025-1C-p6",
+            "ticker": "META",
+            "fy": "FY2025",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5613,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the Audit & Priv"
+          },
+          {
+            "chunk_id": "META-FY2023-1C-p6",
+            "ticker": "META",
+            "fy": "FY2023",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5605,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the audit & risk"
+          }
+        ],
+        "top1_similarity": 0.5705,
+        "top3_entity_match": null
+      }
+    ]
+  },
+  {
+    "sweep": "hnsw_search_ef",
+    "setting": 200,
+    "label": "S4_search_ef_200",
+    "retrievals": [
+      {
+        "qid": "Q1_msft_ai_risk",
+        "query": "How does Microsoft frame AI risk in its risk factors?",
+        "expected_ticker": "MSFT",
+        "top3": [
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p6",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6459,
+            "snippet": "Finally, if we enable or offer AI solutions that have unintended consequences, unintended usage or customization by our customers and partners, are contrary to "
+          },
+          {
+            "chunk_id": "MSFT-FY2022-1A-other-digital-safety-abuses-part1-p5",
+            "ticker": "MSFT",
+            "fy": "FY2022",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6442,
+            "snippet": "Some AI scenarios present ethical issues. If we enable or offer AI solutions that are controversial because of their impact on human rights, privacy, employment"
+          },
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p5",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6345,
+            "snippet": "Ineffective or inadequate AI development or deployment practices by Microsoft or others could result in incidents that impair the acceptance of AI solutions, ca"
+          }
+        ],
+        "top1_similarity": 0.6459,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q2_aapl_iphone_revenue",
+        "query": "Apple's iPhone revenue in fiscal 2024",
+        "expected_ticker": "AAPL",
+        "top3": [
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p5",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7322,
+            "snippet": "(4) Includes $ 7.5 billion of revenue recognized in 2022 that was included in deferred revenue as of September\u00a025, 2021, $ 6.7 billion of revenue recognized in "
+          },
+          {
+            "chunk_id": "AAPL-FY2023-8-note-2-revenue-p11",
+            "ticker": "AAPL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7253,
+            "snippet": "Total net sales include $ 8.2 billion of revenue recognized in 2023 that was included in deferred revenue as of September\u00a024, 2022, $ 7.5 billion of revenue rec"
+          },
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p6",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7116,
+            "snippet": "The Company\u2019s proportion of net sales by disaggregated revenue source was generally consistent for each reportable segment in Note 11, \u201cSegment Information and "
+          }
+        ],
+        "top1_similarity": 0.7322,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q3_tsla_key_person",
+        "query": "Tesla's key-person succession risk",
+        "expected_ticker": "TSLA",
+        "top3": [
+          {
+            "chunk_id": "TSLA-FY2025-1A-risks-related-to-our-ability-to-grow-our-part2-p7",
+            "ticker": "TSLA",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5243,
+            "snippet": "If the market for electric vehicles in general and Tesla vehicles in particular does not develop as we expect, develops more slowly than we expect, or if demand"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-p1",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5241,
+            "snippet": "You should carefully consider the risks described below together with the other information set forth in this report, which could materially affect our business"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-risks-related-to-our-ability-to-grow-our-part2-p4",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5222,
+            "snippet": "Our future growth and success are dependent upon consumers\u2019 demand for electric vehicles and specifically our vehicles in an automotive industry that is general"
+          }
+        ],
+        "top1_similarity": 0.5243,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q4_googl_cloud_segment",
+        "query": "Google Cloud segment performance",
+        "expected_ticker": "GOOGL",
+        "top3": [
+          {
+            "chunk_id": "GOOGL-FY2023-8-note-15-information-about-segments-and-g-p2",
+            "ticker": "GOOGL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "chunk_type": "prose",
+            "similarity": 0.5572,
+            "snippet": "\u2022 Google Cloud includes infrastructure and platform services, collaboration tools, and other services for enterprise customers. Google Cloud generates revenues "
+          },
+          {
+            "chunk_id": "GOOGL-FY2025-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5541,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          },
+          {
+            "chunk_id": "GOOGL-FY2024-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2024",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5528,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          }
+        ],
+        "top1_similarity": 0.5572,
+        "top3_entity_match": 3
+      },
+      {
+        "qid": "Q5_cyber_mag7",
+        "query": "Cybersecurity governance disclosures across MAG7",
+        "expected_ticker": null,
+        "top3": [
+          {
+            "chunk_id": "META-FY2024-1C-p3",
+            "ticker": "META",
+            "fy": "FY2024",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5705,
+            "snippet": "We use a risk management framework based on applicable laws and regulations, and informed by industry standards and industry-recognized practices, for managing "
+          },
+          {
+            "chunk_id": "META-FY2025-1C-p6",
+            "ticker": "META",
+            "fy": "FY2025",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5613,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the Audit & Priv"
+          },
+          {
+            "chunk_id": "META-FY2023-1C-p6",
+            "ticker": "META",
+            "fy": "FY2023",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5605,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the audit & risk"
+          }
+        ],
+        "top1_similarity": 0.5705,
+        "top3_entity_match": null
+      }
+    ]
+  },
+  {
+    "sweep": "top_k_children",
+    "setting": 3,
+    "label": "S5_top_k_3",
+    "retrievals": [
+      {
+        "qid": "Q1_msft_ai_risk",
+        "query": "How does Microsoft frame AI risk in its risk factors?",
+        "expected_ticker": "MSFT",
+        "top3": [
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p6",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6459,
+            "snippet": "Finally, if we enable or offer AI solutions that have unintended consequences, unintended usage or customization by our customers and partners, are contrary to "
+          },
+          {
+            "chunk_id": "MSFT-FY2022-1A-other-digital-safety-abuses-part1-p5",
+            "ticker": "MSFT",
+            "fy": "FY2022",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6442,
+            "snippet": "Some AI scenarios present ethical issues. If we enable or offer AI solutions that are controversial because of their impact on human rights, privacy, employment"
+          },
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p5",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6345,
+            "snippet": "Ineffective or inadequate AI development or deployment practices by Microsoft or others could result in incidents that impair the acceptance of AI solutions, ca"
+          }
+        ],
+        "top_k": 3,
+        "unique_parents_estimated": 2,
+        "top1_similarity": 0.6459
+      },
+      {
+        "qid": "Q2_aapl_iphone_revenue",
+        "query": "Apple's iPhone revenue in fiscal 2024",
+        "expected_ticker": "AAPL",
+        "top3": [
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p5",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7322,
+            "snippet": "(4) Includes $ 7.5 billion of revenue recognized in 2022 that was included in deferred revenue as of September\u00a025, 2021, $ 6.7 billion of revenue recognized in "
+          },
+          {
+            "chunk_id": "AAPL-FY2023-8-note-2-revenue-p11",
+            "ticker": "AAPL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7253,
+            "snippet": "Total net sales include $ 8.2 billion of revenue recognized in 2023 that was included in deferred revenue as of September\u00a024, 2022, $ 7.5 billion of revenue rec"
+          },
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p6",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7116,
+            "snippet": "The Company\u2019s proportion of net sales by disaggregated revenue source was generally consistent for each reportable segment in Note 11, \u201cSegment Information and "
+          }
+        ],
+        "top_k": 3,
+        "unique_parents_estimated": 2,
+        "top1_similarity": 0.7322
+      },
+      {
+        "qid": "Q3_tsla_key_person",
+        "query": "Tesla's key-person succession risk",
+        "expected_ticker": "TSLA",
+        "top3": [
+          {
+            "chunk_id": "TSLA-FY2025-1A-risks-related-to-our-ability-to-grow-our-part2-p7",
+            "ticker": "TSLA",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5243,
+            "snippet": "If the market for electric vehicles in general and Tesla vehicles in particular does not develop as we expect, develops more slowly than we expect, or if demand"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-p1",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5241,
+            "snippet": "You should carefully consider the risks described below together with the other information set forth in this report, which could materially affect our business"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-risks-related-to-our-ability-to-grow-our-part2-p4",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5222,
+            "snippet": "Our future growth and success are dependent upon consumers\u2019 demand for electric vehicles and specifically our vehicles in an automotive industry that is general"
+          }
+        ],
+        "top_k": 3,
+        "unique_parents_estimated": 3,
+        "top1_similarity": 0.5243
+      },
+      {
+        "qid": "Q4_googl_cloud_segment",
+        "query": "Google Cloud segment performance",
+        "expected_ticker": "GOOGL",
+        "top3": [
+          {
+            "chunk_id": "GOOGL-FY2023-8-note-15-information-about-segments-and-g-p2",
+            "ticker": "GOOGL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "chunk_type": "prose",
+            "similarity": 0.5572,
+            "snippet": "\u2022 Google Cloud includes infrastructure and platform services, collaboration tools, and other services for enterprise customers. Google Cloud generates revenues "
+          },
+          {
+            "chunk_id": "GOOGL-FY2025-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5541,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          },
+          {
+            "chunk_id": "GOOGL-FY2024-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2024",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5528,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          }
+        ],
+        "top_k": 3,
+        "unique_parents_estimated": 3,
+        "top1_similarity": 0.5572
+      },
+      {
+        "qid": "Q5_cyber_mag7",
+        "query": "Cybersecurity governance disclosures across MAG7",
+        "expected_ticker": null,
+        "top3": [
+          {
+            "chunk_id": "META-FY2024-1C-p3",
+            "ticker": "META",
+            "fy": "FY2024",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5705,
+            "snippet": "We use a risk management framework based on applicable laws and regulations, and informed by industry standards and industry-recognized practices, for managing "
+          },
+          {
+            "chunk_id": "META-FY2025-1C-p6",
+            "ticker": "META",
+            "fy": "FY2025",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5613,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the Audit & Priv"
+          },
+          {
+            "chunk_id": "META-FY2023-1C-p6",
+            "ticker": "META",
+            "fy": "FY2023",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5605,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the audit & risk"
+          }
+        ],
+        "top_k": 3,
+        "unique_parents_estimated": 3,
+        "top1_similarity": 0.5705
+      }
+    ]
+  },
+  {
+    "sweep": "top_k_children",
+    "setting": 8,
+    "label": "S5_top_k_8",
+    "retrievals": [
+      {
+        "qid": "Q1_msft_ai_risk",
+        "query": "How does Microsoft frame AI risk in its risk factors?",
+        "expected_ticker": "MSFT",
+        "top3": [
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p6",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6459,
+            "snippet": "Finally, if we enable or offer AI solutions that have unintended consequences, unintended usage or customization by our customers and partners, are contrary to "
+          },
+          {
+            "chunk_id": "MSFT-FY2022-1A-other-digital-safety-abuses-part1-p5",
+            "ticker": "MSFT",
+            "fy": "FY2022",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6442,
+            "snippet": "Some AI scenarios present ethical issues. If we enable or offer AI solutions that are controversial because of their impact on human rights, privacy, employment"
+          },
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p5",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6345,
+            "snippet": "Ineffective or inadequate AI development or deployment practices by Microsoft or others could result in incidents that impair the acceptance of AI solutions, ca"
+          }
+        ],
+        "top_k": 8,
+        "unique_parents_estimated": 5,
+        "top1_similarity": 0.6459
+      },
+      {
+        "qid": "Q2_aapl_iphone_revenue",
+        "query": "Apple's iPhone revenue in fiscal 2024",
+        "expected_ticker": "AAPL",
+        "top3": [
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p5",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7322,
+            "snippet": "(4) Includes $ 7.5 billion of revenue recognized in 2022 that was included in deferred revenue as of September\u00a025, 2021, $ 6.7 billion of revenue recognized in "
+          },
+          {
+            "chunk_id": "AAPL-FY2023-8-note-2-revenue-p11",
+            "ticker": "AAPL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7253,
+            "snippet": "Total net sales include $ 8.2 billion of revenue recognized in 2023 that was included in deferred revenue as of September\u00a024, 2022, $ 7.5 billion of revenue rec"
+          },
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p6",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7116,
+            "snippet": "The Company\u2019s proportion of net sales by disaggregated revenue source was generally consistent for each reportable segment in Note 11, \u201cSegment Information and "
+          }
+        ],
+        "top_k": 8,
+        "unique_parents_estimated": 5,
+        "top1_similarity": 0.7322
+      },
+      {
+        "qid": "Q3_tsla_key_person",
+        "query": "Tesla's key-person succession risk",
+        "expected_ticker": "TSLA",
+        "top3": [
+          {
+            "chunk_id": "TSLA-FY2025-1A-risks-related-to-our-ability-to-grow-our-part2-p7",
+            "ticker": "TSLA",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5243,
+            "snippet": "If the market for electric vehicles in general and Tesla vehicles in particular does not develop as we expect, develops more slowly than we expect, or if demand"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-p1",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5241,
+            "snippet": "You should carefully consider the risks described below together with the other information set forth in this report, which could materially affect our business"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-risks-related-to-our-ability-to-grow-our-part2-p4",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5222,
+            "snippet": "Our future growth and success are dependent upon consumers\u2019 demand for electric vehicles and specifically our vehicles in an automotive industry that is general"
+          }
+        ],
+        "top_k": 8,
+        "unique_parents_estimated": 6,
+        "top1_similarity": 0.5243
+      },
+      {
+        "qid": "Q4_googl_cloud_segment",
+        "query": "Google Cloud segment performance",
+        "expected_ticker": "GOOGL",
+        "top3": [
+          {
+            "chunk_id": "GOOGL-FY2023-8-note-15-information-about-segments-and-g-p2",
+            "ticker": "GOOGL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "chunk_type": "prose",
+            "similarity": 0.5572,
+            "snippet": "\u2022 Google Cloud includes infrastructure and platform services, collaboration tools, and other services for enterprise customers. Google Cloud generates revenues "
+          },
+          {
+            "chunk_id": "GOOGL-FY2025-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5541,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          },
+          {
+            "chunk_id": "GOOGL-FY2024-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2024",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5528,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          }
+        ],
+        "top_k": 8,
+        "unique_parents_estimated": 8,
+        "top1_similarity": 0.5572
+      },
+      {
+        "qid": "Q5_cyber_mag7",
+        "query": "Cybersecurity governance disclosures across MAG7",
+        "expected_ticker": null,
+        "top3": [
+          {
+            "chunk_id": "META-FY2024-1C-p3",
+            "ticker": "META",
+            "fy": "FY2024",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5705,
+            "snippet": "We use a risk management framework based on applicable laws and regulations, and informed by industry standards and industry-recognized practices, for managing "
+          },
+          {
+            "chunk_id": "META-FY2025-1C-p6",
+            "ticker": "META",
+            "fy": "FY2025",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5613,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the Audit & Priv"
+          },
+          {
+            "chunk_id": "META-FY2023-1C-p6",
+            "ticker": "META",
+            "fy": "FY2023",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5605,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the audit & risk"
+          }
+        ],
+        "top_k": 8,
+        "unique_parents_estimated": 6,
+        "top1_similarity": 0.5705
+      }
+    ]
+  },
+  {
+    "sweep": "top_k_children",
+    "setting": 16,
+    "label": "S5_top_k_16",
+    "retrievals": [
+      {
+        "qid": "Q1_msft_ai_risk",
+        "query": "How does Microsoft frame AI risk in its risk factors?",
+        "expected_ticker": "MSFT",
+        "top3": [
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p6",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6459,
+            "snippet": "Finally, if we enable or offer AI solutions that have unintended consequences, unintended usage or customization by our customers and partners, are contrary to "
+          },
+          {
+            "chunk_id": "MSFT-FY2022-1A-other-digital-safety-abuses-part1-p5",
+            "ticker": "MSFT",
+            "fy": "FY2022",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6442,
+            "snippet": "Some AI scenarios present ethical issues. If we enable or offer AI solutions that are controversial because of their impact on human rights, privacy, employment"
+          },
+          {
+            "chunk_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1-p5",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "chunk_type": "prose",
+            "similarity": 0.6345,
+            "snippet": "Ineffective or inadequate AI development or deployment practices by Microsoft or others could result in incidents that impair the acceptance of AI solutions, ca"
+          }
+        ],
+        "top_k": 16,
+        "unique_parents_estimated": 11,
+        "top1_similarity": 0.6459
+      },
+      {
+        "qid": "Q2_aapl_iphone_revenue",
+        "query": "Apple's iPhone revenue in fiscal 2024",
+        "expected_ticker": "AAPL",
+        "top3": [
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p5",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7322,
+            "snippet": "(4) Includes $ 7.5 billion of revenue recognized in 2022 that was included in deferred revenue as of September\u00a025, 2021, $ 6.7 billion of revenue recognized in "
+          },
+          {
+            "chunk_id": "AAPL-FY2023-8-note-2-revenue-p11",
+            "ticker": "AAPL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7253,
+            "snippet": "Total net sales include $ 8.2 billion of revenue recognized in 2023 that was included in deferred revenue as of September\u00a024, 2022, $ 7.5 billion of revenue rec"
+          },
+          {
+            "chunk_id": "AAPL-FY2022-8-note-2-revenue-p6",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "chunk_type": "prose",
+            "similarity": 0.7116,
+            "snippet": "The Company\u2019s proportion of net sales by disaggregated revenue source was generally consistent for each reportable segment in Note 11, \u201cSegment Information and "
+          }
+        ],
+        "top_k": 16,
+        "unique_parents_estimated": 9,
+        "top1_similarity": 0.7322
+      },
+      {
+        "qid": "Q3_tsla_key_person",
+        "query": "Tesla's key-person succession risk",
+        "expected_ticker": "TSLA",
+        "top3": [
+          {
+            "chunk_id": "TSLA-FY2025-1A-risks-related-to-our-ability-to-grow-our-part2-p7",
+            "ticker": "TSLA",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5243,
+            "snippet": "If the market for electric vehicles in general and Tesla vehicles in particular does not develop as we expect, develops more slowly than we expect, or if demand"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-p1",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5241,
+            "snippet": "You should carefully consider the risks described below together with the other information set forth in this report, which could materially affect our business"
+          },
+          {
+            "chunk_id": "TSLA-FY2023-1A-risks-related-to-our-ability-to-grow-our-part2-p4",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "chunk_type": "prose",
+            "similarity": 0.5222,
+            "snippet": "Our future growth and success are dependent upon consumers\u2019 demand for electric vehicles and specifically our vehicles in an automotive industry that is general"
+          }
+        ],
+        "top_k": 16,
+        "unique_parents_estimated": 11,
+        "top1_similarity": 0.5243
+      },
+      {
+        "qid": "Q4_googl_cloud_segment",
+        "query": "Google Cloud segment performance",
+        "expected_ticker": "GOOGL",
+        "top3": [
+          {
+            "chunk_id": "GOOGL-FY2023-8-note-15-information-about-segments-and-g-p2",
+            "ticker": "GOOGL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "chunk_type": "prose",
+            "similarity": 0.5572,
+            "snippet": "\u2022 Google Cloud includes infrastructure and platform services, collaboration tools, and other services for enterprise customers. Google Cloud generates revenues "
+          },
+          {
+            "chunk_id": "GOOGL-FY2025-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5541,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          },
+          {
+            "chunk_id": "GOOGL-FY2024-7-segment-profitability-p1",
+            "ticker": "GOOGL",
+            "fy": "FY2024",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "chunk_type": "prose",
+            "similarity": 0.5528,
+            "snippet": "We report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they repre"
+          }
+        ],
+        "top_k": 16,
+        "unique_parents_estimated": 14,
+        "top1_similarity": 0.5572
+      },
+      {
+        "qid": "Q5_cyber_mag7",
+        "query": "Cybersecurity governance disclosures across MAG7",
+        "expected_ticker": null,
+        "top3": [
+          {
+            "chunk_id": "META-FY2024-1C-p3",
+            "ticker": "META",
+            "fy": "FY2024",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5705,
+            "snippet": "We use a risk management framework based on applicable laws and regulations, and informed by industry standards and industry-recognized practices, for managing "
+          },
+          {
+            "chunk_id": "META-FY2025-1C-p6",
+            "ticker": "META",
+            "fy": "FY2025",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5613,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the Audit & Priv"
+          },
+          {
+            "chunk_id": "META-FY2023-1C-p6",
+            "ticker": "META",
+            "fy": "FY2023",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "chunk_type": "prose",
+            "similarity": 0.5605,
+            "snippet": "Our board of directors has oversight of our strategic and business risk management and has delegated cybersecurity risk management oversight to the audit & risk"
+          }
+        ],
+        "top_k": 16,
+        "unique_parents_estimated": 7,
+        "top1_similarity": 0.5705
+      }
+    ]
+  },
+  {
+    "sweep": "max_unique_parents",
+    "setting": 2,
+    "label": "S6_max_parents_2",
+    "retrievals": [
+      {
+        "qid": "Q1_msft_ai_risk",
+        "query": "How does Microsoft frame AI risk in its risk factors?",
+        "expected_ticker": "MSFT",
+        "top_k_children": 8,
+        "max_unique_parents": 2,
+        "n_parents": 2,
+        "total_parent_chars": 23496,
+        "parents": [
+          {
+            "parent_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "best_similarity": 0.6459,
+            "len": 11579
+          },
+          {
+            "parent_id": "MSFT-FY2022-1A-other-digital-safety-abuses-part1",
+            "ticker": "MSFT",
+            "fy": "FY2022",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "best_similarity": 0.6442,
+            "len": 11917
+          }
+        ]
+      },
+      {
+        "qid": "Q2_aapl_iphone_revenue",
+        "query": "Apple's iPhone revenue in fiscal 2024",
+        "expected_ticker": "AAPL",
+        "top_k_children": 8,
+        "max_unique_parents": 2,
+        "n_parents": 2,
+        "total_parent_chars": 8778,
+        "parents": [
+          {
+            "parent_id": "AAPL-FY2022-8-note-2-revenue",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "best_similarity": 0.7322,
+            "len": 2293
+          },
+          {
+            "parent_id": "AAPL-FY2023-8-note-2-revenue",
+            "ticker": "AAPL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "best_similarity": 0.7253,
+            "len": 6485
+          }
+        ]
+      },
+      {
+        "qid": "Q3_tsla_key_person",
+        "query": "Tesla's key-person succession risk",
+        "expected_ticker": "TSLA",
+        "top_k_children": 8,
+        "max_unique_parents": 2,
+        "n_parents": 2,
+        "total_parent_chars": 10180,
+        "parents": [
+          {
+            "parent_id": "TSLA-FY2025-1A-risks-related-to-our-ability-to-grow-our-part2",
+            "ticker": "TSLA",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "best_similarity": 0.5243,
+            "len": 9723
+          },
+          {
+            "parent_id": "TSLA-FY2023-1A",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "",
+            "best_similarity": 0.5241,
+            "len": 457
+          }
+        ]
+      },
+      {
+        "qid": "Q4_googl_cloud_segment",
+        "query": "Google Cloud segment performance",
+        "expected_ticker": "GOOGL",
+        "top_k_children": 8,
+        "max_unique_parents": 2,
+        "n_parents": 2,
+        "total_parent_chars": 5942,
+        "parents": [
+          {
+            "parent_id": "GOOGL-FY2023-8-note-15-information-about-segments-and-g",
+            "ticker": "GOOGL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "best_similarity": 0.5572,
+            "len": 4916
+          },
+          {
+            "parent_id": "GOOGL-FY2025-7-segment-profitability",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "best_similarity": 0.5541,
+            "len": 1026
+          }
+        ]
+      },
+      {
+        "qid": "Q5_cyber_mag7",
+        "query": "Cybersecurity governance disclosures across MAG7",
+        "expected_ticker": null,
+        "top_k_children": 8,
+        "max_unique_parents": 2,
+        "n_parents": 2,
+        "total_parent_chars": 13588,
+        "parents": [
+          {
+            "parent_id": "META-FY2024-1C",
+            "ticker": "META",
+            "fy": "FY2024",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "best_similarity": 0.5705,
+            "len": 6668
+          },
+          {
+            "parent_id": "META-FY2025-1C",
+            "ticker": "META",
+            "fy": "FY2025",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "best_similarity": 0.5613,
+            "len": 6920
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": "max_unique_parents",
+    "setting": 4,
+    "label": "S6_max_parents_4",
+    "retrievals": [
+      {
+        "qid": "Q1_msft_ai_risk",
+        "query": "How does Microsoft frame AI risk in its risk factors?",
+        "expected_ticker": "MSFT",
+        "top_k_children": 8,
+        "max_unique_parents": 4,
+        "n_parents": 4,
+        "total_parent_chars": 46454,
+        "parents": [
+          {
+            "parent_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "best_similarity": 0.6459,
+            "len": 11579
+          },
+          {
+            "parent_id": "MSFT-FY2022-1A-other-digital-safety-abuses-part1",
+            "ticker": "MSFT",
+            "fy": "FY2022",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "best_similarity": 0.6442,
+            "len": 11917
+          },
+          {
+            "parent_id": "MSFT-FY2024-1A-other-digital-safety-abuses-part1",
+            "ticker": "MSFT",
+            "fy": "FY2024",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "best_similarity": 0.6279,
+            "len": 11692
+          },
+          {
+            "parent_id": "MSFT-FY2023-1A-other-digital-safety-abuses-part1",
+            "ticker": "MSFT",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "best_similarity": 0.6245,
+            "len": 11266
+          }
+        ]
+      },
+      {
+        "qid": "Q2_aapl_iphone_revenue",
+        "query": "Apple's iPhone revenue in fiscal 2024",
+        "expected_ticker": "AAPL",
+        "top_k_children": 8,
+        "max_unique_parents": 4,
+        "n_parents": 4,
+        "total_parent_chars": 16882,
+        "parents": [
+          {
+            "parent_id": "AAPL-FY2022-8-note-2-revenue",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "best_similarity": 0.7322,
+            "len": 2293
+          },
+          {
+            "parent_id": "AAPL-FY2023-8-note-2-revenue",
+            "ticker": "AAPL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "best_similarity": 0.7253,
+            "len": 6485
+          },
+          {
+            "parent_id": "AAPL-FY2024-8-note-2-revenue",
+            "ticker": "AAPL",
+            "fy": "FY2024",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "best_similarity": 0.7111,
+            "len": 6058
+          },
+          {
+            "parent_id": "AAPL-FY2023-7-products-and-services-performance",
+            "ticker": "AAPL",
+            "fy": "FY2023",
+            "item": "Item 7",
+            "sub_heading": "Products and Services Performance",
+            "best_similarity": 0.7056,
+            "len": 2046
+          }
+        ]
+      },
+      {
+        "qid": "Q3_tsla_key_person",
+        "query": "Tesla's key-person succession risk",
+        "expected_ticker": "TSLA",
+        "top_k_children": 8,
+        "max_unique_parents": 4,
+        "n_parents": 4,
+        "total_parent_chars": 28689,
+        "parents": [
+          {
+            "parent_id": "TSLA-FY2025-1A-risks-related-to-our-ability-to-grow-our-part2",
+            "ticker": "TSLA",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "best_similarity": 0.5243,
+            "len": 9723
+          },
+          {
+            "parent_id": "TSLA-FY2023-1A",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "",
+            "best_similarity": 0.5241,
+            "len": 457
+          },
+          {
+            "parent_id": "TSLA-FY2023-1A-risks-related-to-our-ability-to-grow-our-part2",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "best_similarity": 0.5222,
+            "len": 6821
+          },
+          {
+            "parent_id": "TSLA-FY2023-1A-risks-related-to-government-laws-and-reg",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Government Laws and Regulations",
+            "best_similarity": 0.5211,
+            "len": 11688
+          }
+        ]
+      },
+      {
+        "qid": "Q4_googl_cloud_segment",
+        "query": "Google Cloud segment performance",
+        "expected_ticker": "GOOGL",
+        "top_k_children": 8,
+        "max_unique_parents": 4,
+        "n_parents": 4,
+        "total_parent_chars": 13086,
+        "parents": [
+          {
+            "parent_id": "GOOGL-FY2023-8-note-15-information-about-segments-and-g",
+            "ticker": "GOOGL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "best_similarity": 0.5572,
+            "len": 4916
+          },
+          {
+            "parent_id": "GOOGL-FY2025-7-segment-profitability",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "best_similarity": 0.5541,
+            "len": 1026
+          },
+          {
+            "parent_id": "GOOGL-FY2024-7-segment-profitability",
+            "ticker": "GOOGL",
+            "fy": "FY2024",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "best_similarity": 0.5528,
+            "len": 1308
+          },
+          {
+            "parent_id": "GOOGL-FY2025-8-note-15-information-about-segments-and-g",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "best_similarity": 0.5524,
+            "len": 5836
+          }
+        ]
+      },
+      {
+        "qid": "Q5_cyber_mag7",
+        "query": "Cybersecurity governance disclosures across MAG7",
+        "expected_ticker": null,
+        "top_k_children": 8,
+        "max_unique_parents": 4,
+        "n_parents": 4,
+        "total_parent_chars": 21670,
+        "parents": [
+          {
+            "parent_id": "META-FY2024-1C",
+            "ticker": "META",
+            "fy": "FY2024",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "best_similarity": 0.5705,
+            "len": 6668
+          },
+          {
+            "parent_id": "META-FY2025-1C",
+            "ticker": "META",
+            "fy": "FY2025",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "best_similarity": 0.5613,
+            "len": 6920
+          },
+          {
+            "parent_id": "META-FY2023-1C",
+            "ticker": "META",
+            "fy": "FY2023",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "best_similarity": 0.5605,
+            "len": 6510
+          },
+          {
+            "parent_id": "TSLA-FY2023-1C-cybersecurity-governance",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1C",
+            "sub_heading": "Cybersecurity Governance",
+            "best_similarity": 0.56,
+            "len": 1572
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": "max_unique_parents",
+    "setting": 8,
+    "label": "S6_max_parents_8",
+    "retrievals": [
+      {
+        "qid": "Q1_msft_ai_risk",
+        "query": "How does Microsoft frame AI risk in its risk factors?",
+        "expected_ticker": "MSFT",
+        "top_k_children": 8,
+        "max_unique_parents": 8,
+        "n_parents": 5,
+        "total_parent_chars": 48764,
+        "parents": [
+          {
+            "parent_id": "MSFT-FY2025-1A-other-digital-safety-abuses-part1",
+            "ticker": "MSFT",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "best_similarity": 0.6459,
+            "len": 11579
+          },
+          {
+            "parent_id": "MSFT-FY2022-1A-other-digital-safety-abuses-part1",
+            "ticker": "MSFT",
+            "fy": "FY2022",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "best_similarity": 0.6442,
+            "len": 11917
+          },
+          {
+            "parent_id": "MSFT-FY2024-1A-other-digital-safety-abuses-part1",
+            "ticker": "MSFT",
+            "fy": "FY2024",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "best_similarity": 0.6279,
+            "len": 11692
+          },
+          {
+            "parent_id": "MSFT-FY2023-1A-other-digital-safety-abuses-part1",
+            "ticker": "MSFT",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "Other digital safety abuses",
+            "best_similarity": 0.6245,
+            "len": 11266
+          },
+          {
+            "parent_id": "MSFT-FY2021-7-economic-conditions-challenges-and-risks",
+            "ticker": "MSFT",
+            "fy": "FY2021",
+            "item": "Item 7",
+            "sub_heading": "Economic Conditions, Challenges, and Risks",
+            "best_similarity": 0.6173,
+            "len": 2310
+          }
+        ]
+      },
+      {
+        "qid": "Q2_aapl_iphone_revenue",
+        "query": "Apple's iPhone revenue in fiscal 2024",
+        "expected_ticker": "AAPL",
+        "top_k_children": 8,
+        "max_unique_parents": 8,
+        "n_parents": 5,
+        "total_parent_chars": 18529,
+        "parents": [
+          {
+            "parent_id": "AAPL-FY2022-8-note-2-revenue",
+            "ticker": "AAPL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "best_similarity": 0.7322,
+            "len": 2293
+          },
+          {
+            "parent_id": "AAPL-FY2023-8-note-2-revenue",
+            "ticker": "AAPL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "best_similarity": 0.7253,
+            "len": 6485
+          },
+          {
+            "parent_id": "AAPL-FY2024-8-note-2-revenue",
+            "ticker": "AAPL",
+            "fy": "FY2024",
+            "item": "Item 8",
+            "sub_heading": "Note 2 \u2013 Revenue",
+            "best_similarity": 0.7111,
+            "len": 6058
+          },
+          {
+            "parent_id": "AAPL-FY2023-7-products-and-services-performance",
+            "ticker": "AAPL",
+            "fy": "FY2023",
+            "item": "Item 7",
+            "sub_heading": "Products and Services Performance",
+            "best_similarity": 0.7056,
+            "len": 2046
+          },
+          {
+            "parent_id": "AAPL-FY2025-7-products-and-services-performance",
+            "ticker": "AAPL",
+            "fy": "FY2025",
+            "item": "Item 7",
+            "sub_heading": "Products and Services Performance",
+            "best_similarity": 0.7024,
+            "len": 1647
+          }
+        ]
+      },
+      {
+        "qid": "Q3_tsla_key_person",
+        "query": "Tesla's key-person succession risk",
+        "expected_ticker": "TSLA",
+        "top_k_children": 8,
+        "max_unique_parents": 8,
+        "n_parents": 6,
+        "total_parent_chars": 40768,
+        "parents": [
+          {
+            "parent_id": "TSLA-FY2025-1A-risks-related-to-our-ability-to-grow-our-part2",
+            "ticker": "TSLA",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "best_similarity": 0.5243,
+            "len": 9723
+          },
+          {
+            "parent_id": "TSLA-FY2023-1A",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "",
+            "best_similarity": 0.5241,
+            "len": 457
+          },
+          {
+            "parent_id": "TSLA-FY2023-1A-risks-related-to-our-ability-to-grow-our-part2",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Our Ability to Grow Our Business",
+            "best_similarity": 0.5222,
+            "len": 6821
+          },
+          {
+            "parent_id": "TSLA-FY2023-1A-risks-related-to-government-laws-and-reg",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1A",
+            "sub_heading": "Risks Related to Government Laws and Regulations",
+            "best_similarity": 0.5211,
+            "len": 11688
+          },
+          {
+            "parent_id": "TSLA-FY2022-1A-we-may-be-required-to-defend-or-insure-a-part1",
+            "ticker": "TSLA",
+            "fy": "FY2022",
+            "item": "Item 1A",
+            "sub_heading": "We may be required to defend or insure against product liability claims.",
+            "best_similarity": 0.52,
+            "len": 11622
+          },
+          {
+            "parent_id": "TSLA-FY2025-1A",
+            "ticker": "TSLA",
+            "fy": "FY2025",
+            "item": "Item 1A",
+            "sub_heading": "",
+            "best_similarity": 0.5155,
+            "len": 457
+          }
+        ]
+      },
+      {
+        "qid": "Q4_googl_cloud_segment",
+        "query": "Google Cloud segment performance",
+        "expected_ticker": "GOOGL",
+        "top_k_children": 8,
+        "max_unique_parents": 8,
+        "n_parents": 8,
+        "total_parent_chars": 23670,
+        "parents": [
+          {
+            "parent_id": "GOOGL-FY2023-8-note-15-information-about-segments-and-g",
+            "ticker": "GOOGL",
+            "fy": "FY2023",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "best_similarity": 0.5572,
+            "len": 4916
+          },
+          {
+            "parent_id": "GOOGL-FY2025-7-segment-profitability",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "best_similarity": 0.5541,
+            "len": 1026
+          },
+          {
+            "parent_id": "GOOGL-FY2024-7-segment-profitability",
+            "ticker": "GOOGL",
+            "fy": "FY2024",
+            "item": "Item 7",
+            "sub_heading": "Segment Profitability",
+            "best_similarity": 0.5528,
+            "len": 1308
+          },
+          {
+            "parent_id": "GOOGL-FY2025-8-note-15-information-about-segments-and-g",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "best_similarity": 0.5524,
+            "len": 5836
+          },
+          {
+            "parent_id": "GOOGL-FY2024-8-note-15-information-about-segments-and-g",
+            "ticker": "GOOGL",
+            "fy": "FY2024",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "best_similarity": 0.5429,
+            "len": 6337
+          },
+          {
+            "parent_id": "GOOGL-FY2022-8-note-15-information-about-segments-and-g",
+            "ticker": "GOOGL",
+            "fy": "FY2022",
+            "item": "Item 8",
+            "sub_heading": "Note 15. Information about Segments and Geographic Areas",
+            "best_similarity": 0.5372,
+            "len": 4072
+          },
+          {
+            "parent_id": "GOOGL-FY2021-1-google",
+            "ticker": "GOOGL",
+            "fy": "FY2021",
+            "item": "Item 1",
+            "sub_heading": "Google",
+            "best_similarity": 0.5333,
+            "len": 88
+          },
+          {
+            "parent_id": "GOOGL-FY2025-1-google",
+            "ticker": "GOOGL",
+            "fy": "FY2025",
+            "item": "Item 1",
+            "sub_heading": "Google",
+            "best_similarity": 0.5296,
+            "len": 87
+          }
+        ]
+      },
+      {
+        "qid": "Q5_cyber_mag7",
+        "query": "Cybersecurity governance disclosures across MAG7",
+        "expected_ticker": null,
+        "top_k_children": 8,
+        "max_unique_parents": 8,
+        "n_parents": 6,
+        "total_parent_chars": 24810,
+        "parents": [
+          {
+            "parent_id": "META-FY2024-1C",
+            "ticker": "META",
+            "fy": "FY2024",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "best_similarity": 0.5705,
+            "len": 6668
+          },
+          {
+            "parent_id": "META-FY2025-1C",
+            "ticker": "META",
+            "fy": "FY2025",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "best_similarity": 0.5613,
+            "len": 6920
+          },
+          {
+            "parent_id": "META-FY2023-1C",
+            "ticker": "META",
+            "fy": "FY2023",
+            "item": "Item 1C",
+            "sub_heading": "",
+            "best_similarity": 0.5605,
+            "len": 6510
+          },
+          {
+            "parent_id": "TSLA-FY2023-1C-cybersecurity-governance",
+            "ticker": "TSLA",
+            "fy": "FY2023",
+            "item": "Item 1C",
+            "sub_heading": "Cybersecurity Governance",
+            "best_similarity": 0.56,
+            "len": 1572
+          },
+          {
+            "parent_id": "TSLA-FY2024-1C-cybersecurity-governance",
+            "ticker": "TSLA",
+            "fy": "FY2024",
+            "item": "Item 1C",
+            "sub_heading": "Cybersecurity Governance",
+            "best_similarity": 0.5568,
+            "len": 1572
+          },
+          {
+            "parent_id": "TSLA-FY2025-1C-cybersecurity-governance",
+            "ticker": "TSLA",
+            "fy": "FY2025",
+            "item": "Item 1C",
+            "sub_heading": "Cybersecurity Governance",
+            "best_similarity": 0.5511,
+            "len": 1568
+          }
+        ]
+      }
+    ]
+  }
+]

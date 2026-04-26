@@ -1,0 +1,42 @@
+{
+  "ticker": "TSLA",
+  "company": "Tesla",
+  "fy_end": "2022-12-31",
+  "fy_label": "FY2022",
+  "calendar_year": 2022,
+  "filed_date": "2023-01-31",
+  "cik": "0001318605",
+  "accession": "0000950170-23-001409",
+  "edgar_url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017023001409/tsla-20221231.htm",
+  "stats": {
+    "items_kept": [
+      "1",
+      "1A",
+      "2",
+      "3",
+      "5",
+      "7",
+      "7A",
+      "8",
+      "9A"
+    ],
+    "items_dropped": [
+      "1B",
+      "4",
+      "6",
+      "9",
+      "9B",
+      "9C",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "tables_kept": 61,
+    "subheadings_kept": 159,
+    "chars_clean": 390806
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "ticker": "MSFT",
+  "company": "Microsoft",
+  "fy_end": "2022-06-30",
+  "fy_label": "FY2022",
+  "calendar_year": 2022,
+  "filed_date": "2022-07-28",
+  "cik": "0000789019",
+  "accession": "0001564590-22-026876",
+  "edgar_url": "https://www.sec.gov/Archives/edgar/data/789019/000156459022026876/msft-10k_20220630.htm",
+  "stats": {
+    "items_kept": [
+      "1",
+      "1A",
+      "2",
+      "3",
+      "5",
+      "7",
+      "7A",
+      "8",
+      "9A"
+    ],
+    "items_dropped": [
+      "1B",
+      "4",
+      "6",
+      "9",
+      "9B",
+      "9C",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "tables_kept": 88,
+    "subheadings_kept": 129,
+    "chars_clean": 274879
+  }
+}

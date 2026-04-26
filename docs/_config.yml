@@ -1,0 +1,26 @@
+title: 10k-rag
+description: Hierarchical RAG over MAG7 10-K filings — config-driven chunking pipeline.
+
+theme: just-the-docs
+
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+
+aux_links:
+  "GitHub":
+    - "https://github.com/shiva-reddy/10k-rag"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+nav_enabled: false
+
+exclude:
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - .bundle/
+  - README.md
+  - CHANGELOG.md
